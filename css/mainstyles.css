@@ -1,0 +1,120 @@
+body{
+  background: url("../img-2/cloud-1.png") no-repeat,
+  url("../img-2/cloud-2.png") no-repeat,
+  url("../img-2/cloud-3.png") no-repeat,
+  linear-gradient(#3B5398, #Ffffff);
+  background-position: 8% 18%, right top, 50% 30%;
+  background-size:20%, 30%, 50%, 100%;
+  background-origin: content-box;
+}
+
+section.grass{
+  background: url("../img-2/palmtrees.png") 50% 90% no-repeat;
+  background-size:100%;
+  background-origin: content-box;
+}
+
+section.water{
+  margin-top:-4rem;
+  background: url("../img-2/water-layer.png") 50% 50% no-repeat, linear-gradient(#3bc4f2, #3bc4f2);
+  background-size:cover;
+  background-origin: content-box;
+}
+section.sand{
+  background-color:#f9f7d4;
+}
+
+.logo{
+  margin-top:1%;
+  height:6.5rem;
+}
+.appstore{
+  width:11rem;
+  margin-top:2%;
+}
+.googleplay{
+  width:11rem;
+  margin-top:2%;
+}
+div.row.small{
+  padding: 5rem 0 2rem;
+}
+.fb, .ig, .tw {
+  width:35%;
+}
+.phone {
+  height:auto;
+  width:25rem;
+}
+.characters {
+  height:auto;
+  width:25rem;
+}
+
+.navbar {
+    width: 100%;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding: 7rem 0 3rem;
+}
+.navbar ul {
+    list-style-type: none; /*to remove bullets*/
+    text-align: center;
+}
+.navbar > ul > li.plank{
+    display:inline;
+    line-height:60px;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    width:5rem;
+}
+a.plank {
+  text-decoration: none;
+  color:#F2E55B;
+  text-align:center;
+  padding: .5rem 6rem;
+  background: url("../img-2/plank-2.png") no-repeat bottom center;
+  background-size:14rem;
+  width:5rem;
+}
+
+div.row.social{
+  margin-top:2rem;
+}
+section.copy {
+  background-color:#57564a;
+  text-align: center;
+  width:100%;
+  padding-top:1rem;
+}
+h2.follow{
+  text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+  div.row.header{
+    display:none;
+  }
+  div.row.navbar {
+    display:none;
+  }
+  .phone {
+    display:none;
+  }
+  h2.follow{
+    font-size:1.5rem;
+  }
+}
+
+
+@media screen and (min-width: 640px) {
+  div.row.small{
+    display:none;
+  }
+  .characters {
+    display:none;
+  }
+  h2.follow{
+    font-size:2rem;
+  }
+}
