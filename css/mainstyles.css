@@ -103,7 +103,7 @@ h2.follow{
 }*/
 
 
-@media screen and (max-width: 640px) {
+/*@media screen and (max-width: 640px) {*/
   .phone {
     height:auto;
     width:20%;
@@ -117,4 +117,4 @@ h2.follow{
   h2.follow{
     font-size:2rem;
   }
-}
+/*}*/
