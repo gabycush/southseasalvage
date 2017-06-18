@@ -91,7 +91,7 @@ h2.follow{
   text-align: center;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-device-width: 736px) {
   div.row.header{
     display:none;
   }
@@ -107,7 +107,7 @@ h2.follow{
 }
 
 
-@media screen and (min-width: 737px) {
+@media screen and (min-device-width: 737px) {
   div.row.small{
     display:none;
   }
