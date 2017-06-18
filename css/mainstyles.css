@@ -91,7 +91,7 @@ h2.follow{
   text-align: center;
 }
 
-@media only screen and (orientation: portrait) {
+/*@media screen and (max-width: 640px) {*/
   div.row.header{
     display:none;
   }
@@ -104,10 +104,10 @@ h2.follow{
   h2.follow{
     font-size:1.5rem;
   }
-}
+/*}*/
 
-
-@media only screen and (orientation: landscape) {
+/*
+@media screen and (min-width: 640px) {
   div.row.small{
     display:none;
   }
@@ -118,3 +118,4 @@ h2.follow{
     font-size:2rem;
   }
 }
+*/
