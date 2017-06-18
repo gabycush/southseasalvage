@@ -24,14 +24,6 @@ section.sand{
   background-color:#f9f7d4;
 }
 
-
-.fb, .ig, .tw {
-  width:35%;
-}
-
-div.row.social{
-  margin-top:2rem;
-}
 section.copy {
   background-color:#57564a;
   text-align: center;
@@ -66,6 +58,10 @@ section.copy {
     width:100%;
   }
   .googleplay{
+    width:100%;
+  }
+  div.row.social{
+    margin-top:2rem;
     width:100%;
   }
 }
@@ -122,6 +118,13 @@ section.copy {
   .googleplay{
     width:100%;
     padding-top:25%;
+  }
+  .fb, .ig, .tw {
+    width:35%;
+  }
+
+  div.row.social{
+    margin-top:3rem;
   }
 
 }
