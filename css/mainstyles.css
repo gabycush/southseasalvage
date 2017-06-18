@@ -22,7 +22,7 @@ section.water{
 }
 section.sand{
   background-color:#f9f7d4;
-  padding-bottom:5%;
+  padding:5% 0;
 }
 
 section.copy {
@@ -51,6 +51,9 @@ section.copy {
   .characters {
     height:auto;
     width:100%;
+  }
+  .menu{
+    width:5rem;
   }
   div.row.small{
     padding: 5rem 0 2rem;
@@ -93,6 +96,9 @@ section.copy {
 
 @media screen and (min-device-width: 737px) { /*Desktop*/
   div.row.small{
+    display:none;
+  }
+  .menu {
     display:none;
   }
   .characters {
