@@ -60,7 +60,16 @@ section.copy {
   .googleplay{
     width:100%;
   }
-  div.row.social{
+  .fb, .tw, .ig {
+    padding: 0 5%;
+  }
+  div.chest {
+    width:100%;
+  }
+  img.chest {
+    padding-left:40%;
+  }
+  div.social{
     margin-top:2rem;
     width:100%;
   }
@@ -119,12 +128,24 @@ section.copy {
     width:100%;
     padding-top:25%;
   }
-  .fb, .ig, .tw {
-    width:35%;
+  p.social{
+    margin-right:12%;
   }
-
-  div.row.social{
+  .fb, .tw, .ig {
+    padding: 0 5%;
+  }
+  div.chest {
+    float:left;
+    width:40%;
+  }
+  img.chest {
+    float:right;
+  }
+  div.social{
     margin-top:3rem;
+    margin-right:15%;
+    width:35%;
+    float:right;
   }
 
 }
