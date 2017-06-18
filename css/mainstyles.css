@@ -24,58 +24,11 @@ section.sand{
   background-color:#f9f7d4;
 }
 
-.logo{
-  margin-top:1%;
-  height:6.5rem;
-}
-.appstore{
-  width:11rem;
-  margin-top:2%;
-}
-.googleplay{
-  width:11rem;
-  margin-top:2%;
-}
 div.row.small{
   padding: 5rem 0 2rem;
 }
 .fb, .ig, .tw {
   width:35%;
-}
-.phone {
-  height:auto;
-  width:25rem;
-}
-.characters {
-  height:auto;
-  width:25rem;
-}
-
-.navbar {
-    width: 100%;
-    margin-left: auto ;
-    margin-right: auto ;
-    padding: 7rem 0 3rem;
-}
-.navbar ul {
-    list-style-type: none; /*to remove bullets*/
-    text-align: center;
-}
-.navbar > ul > li.plank{
-    display:inline;
-    line-height:60px;
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-    width:5rem;
-}
-a.plank {
-  text-decoration: none;
-  color:#F2E55B;
-  text-align:center;
-  padding: .5rem 6rem;
-  background: url("../img-2/plank-2.png") no-repeat bottom center;
-  background-size:14rem;
-  width:5rem;
 }
 
 div.row.social{
@@ -87,11 +40,10 @@ section.copy {
   width:100%;
   padding-top:1rem;
 }
-h2.follow{
-  text-align: center;
-}
 
-@media screen and (max-device-width: 736px) {
+/*SCREEN SPECIFIC STYLES*/
+
+@media screen and (max-device-width: 736px) { /*Phone*/
   div.row.header{
     display:none;
   }
@@ -103,11 +55,16 @@ h2.follow{
   }
   h2.follow{
     font-size:1.5rem;
+    text-align: center;
+  }
+  .characters {
+    height:auto;
+    width:100%;
   }
 }
 
 
-@media screen and (min-device-width: 737px) {
+@media screen and (min-device-width: 737px) { /*Desktop*/
   div.row.small{
     display:none;
   }
@@ -116,5 +73,48 @@ h2.follow{
   }
   h2.follow{
     font-size:2rem;
+    text-align: center;
   }
+  .phone {
+    height:auto;
+    width:35%;
+  }
+  .navbar {
+    width: 100%;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding: 7rem 0 3rem;
+  }
+  .navbar ul {
+    list-style-type: none; /*to remove bullets*/
+    text-align: center;
+  }
+  .navbar > ul > li.plank{
+    display:inline;
+    line-height:60px;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    width:5rem;
+  }
+  a.plank {
+    text-decoration: none;
+    color:#F2E55B;
+    text-align:center;
+    padding: .5rem 6rem;
+    background: url("../img-2/plank-2.png") no-repeat bottom center;
+    background-size:14rem;
+    width:5rem;
+  }
+  .logo{
+    padding-top:9%;
+  }
+  .appstore{
+    width:11rem;
+    padding-top:25%;
+  }
+  .googleplay{
+    width:11rem;
+    padding-top:25%;
+  }
+
 }
