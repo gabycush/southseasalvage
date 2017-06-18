@@ -62,6 +62,10 @@ section.copy {
   }
   .fb, .tw, .ig {
     padding: 0 5%;
+    width:5rem;
+  }
+  img.coin{
+    width:5rem;
   }
   div.chest {
     width:100%;
@@ -77,7 +81,7 @@ section.copy {
     width:100%;
   }
   h2.follow{
-    font-size:5rem;
+    font-size:4rem;
   }
 }
 
