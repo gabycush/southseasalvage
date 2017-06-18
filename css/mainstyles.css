@@ -62,7 +62,7 @@ section.copy {
   }
   .fb, .tw, .ig {
     padding: 0 5%;
-    width:11rem;
+    width:10.5rem;
   }
   img.coin{
     width:5rem;
@@ -71,7 +71,7 @@ section.copy {
     width:100%;
   }
   p.social{
-    width:50%;
+    width:70%;
     margin-right:auto;
     margin-left:auto;
     display:block;
