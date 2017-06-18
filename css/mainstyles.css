@@ -22,6 +22,7 @@ section.water{
 }
 section.sand{
   background-color:#f9f7d4;
+  padding-bottom:5%;
 }
 
 section.copy {
@@ -71,7 +72,7 @@ section.copy {
     width:100%;
   }
   p.social{
-    width:60%;
+    width:55%;
     margin-right:auto;
     margin-left:auto;
     display:block;
