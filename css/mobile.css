@@ -1,0 +1,61 @@
+
+
+@media screen and (max-device-width: 736px) { /*Phone*/
+  div.row.header{
+    display:none;
+  }
+  .navbar {
+    display:none;
+  }
+  .phone {
+    display:none;
+  }
+  h2.follow{
+    font-size:1.5rem;
+    text-align: center;
+  }
+  .characters {
+    height:auto;
+    width:100%;
+  }
+  .menu{
+    width:5rem;
+    margin-top:2%;
+  }
+  div.row.small{
+    padding: 5rem 0 2rem;
+  }
+  .appstore{
+    width:100%;
+  }
+  .googleplay{
+    width:100%;
+  }
+  .fb, .tw, .ig {
+    padding: 0 5%;
+    width:10.5rem;
+  }
+  img.coin{
+    width:5rem;
+  }
+  div.chest {
+    width:100%;
+  }
+  p.social{
+    width:54%;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+  }
+  img.chest {
+    padding-left:40%;
+  }
+  div.social{
+    margin-top:2rem;
+    width:100%;
+    margin-bottom:2%;
+  }
+  h2.follow{
+    font-size:4rem;
+  }
+}
