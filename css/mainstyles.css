@@ -1,28 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
 body{
   background: url("../img-2/cloud-1.png") no-repeat,
   url("../img-2/cloud-2.png") no-repeat,
   url("../img-2/cloud-3.png") no-repeat,
-  linear-gradient(#3B5398, #Ffffff);
+  linear-gradient(#556AA6, #556AA6);
   background-position: 8% 18%, right top, 50% 30%;
   background-size:20%, 30%, 50%, 100%;
   background-origin: content-box;
+  font-family: 'PT Sans', sans-serif;
 }
 
-section.grass{
-  background: url("../img-2/palmtrees.png") 50% 90% no-repeat;
-  background-size:100%;
-  background-origin: content-box;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Baloo', cursive;
+  color: #EAC14D;
+  padding: .5rem 0;
 }
 
-section.water{
-  margin-top:-4rem;
-  background: url("../img-2/water-layer.png") 50% 50% no-repeat, linear-gradient(#3bc4f2, #3bc4f2);
-  background-size:cover;
+section.grass-water{
+  background: url("../img-2/palmtrees.png") no-repeat,
+  url("../img-2/water-layer.png") no-repeat,
+  url("../img-2/treasure.png") no-repeat,
+  url("../img-2/treasure.png") no-repeat,
+  linear-gradient(#556AA6, #3bc4f2, #3B5398);
+  background-position: 50% 20%, 50% 50%, bottom left, bottom right, 50% 50% ;
+  background-size:100%, 100%, 40%, 40%;
   background-origin: content-box;
+  margin-top: 5rem;
 }
+
+#main {
+  width:77%;
+  margin-right:auto;
+  margin-left:auto;
+  display:block;
+}
+
 section.sand{
   background-color:#f9f7d4;
-  padding:5% 0;
+  padding:2% 0;
 }
 
 section.copy {
@@ -30,144 +46,7 @@ section.copy {
   text-align: center;
   width:100%;
   padding-top:1rem;
+  color: #231b19;
 }
 
-/*SCREEN SPECIFIC STYLES*/
-
-@media screen and (max-device-width: 736px) { /*Phone*/
-  div.row.header{
-    display:none;
-  }
-  div.row.navbar {
-    display:none;
-  }
-  .phone {
-    display:none;
-  }
-  h2.follow{
-    font-size:1.5rem;
-    text-align: center;
-  }
-  .characters {
-    height:auto;
-    width:100%;
-  }
-  .menu{
-    width:5rem;
-    margin-top:2%;
-  }
-  div.row.small{
-    padding: 5rem 0 2rem;
-  }
-  .appstore{
-    width:100%;
-  }
-  .googleplay{
-    width:100%;
-  }
-  .fb, .tw, .ig {
-    padding: 0 5%;
-    width:10.5rem;
-  }
-  img.coin{
-    width:5rem;
-  }
-  div.chest {
-    width:100%;
-  }
-  p.social{
-    width:54%;
-    margin-right:auto;
-    margin-left:auto;
-    display:block;
-  }
-  img.chest {
-    padding-left:40%;
-  }
-  div.social{
-    margin-top:2rem;
-    width:100%;
-    margin-bottom:2%;
-  }
-  h2.follow{
-    font-size:4rem;
-  }
-}
-
-
-@media screen and (min-device-width: 737px) { /*Desktop*/
-  div.row.small{
-    display:none;
-  }
-  .menu {
-    display:none;
-  }
-  .characters {
-    display:none;
-  }
-  h2.follow{
-    font-size:2rem;
-    text-align: center;
-  }
-  .phone {
-    height:auto;
-    width:35%;
-  }
-  .navbar {
-    width: 100%;
-    margin-left: auto ;
-    margin-right: auto ;
-    padding: 7rem 0 3rem;
-  }
-  .navbar ul {
-    list-style-type: none; /*to remove bullets*/
-    text-align: center;
-  }
-  .navbar > ul > li.plank{
-    display:inline;
-    line-height:60px;
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-    width:5rem;
-  }
-  a.plank {
-    text-decoration: none;
-    color:#F2E55B;
-    text-align:center;
-    padding: .5rem 6rem;
-    background: url("../img-2/plank-2.png") no-repeat bottom center;
-    background-size:14rem;
-    width:5rem;
-  }
-  .logo{
-    padding-top:9%;
-  }
-  .appstore{
-    width:100%;
-    padding-top:25%;
-  }
-  .googleplay{
-    width:100%;
-    padding-top:25%;
-  }
-  p.social{
-    margin-right:12%;
-  }
-  .fb, .tw, .ig {
-    padding: 0 5%;
-  }
-  div.chest {
-    float:left;
-    width:40%;
-  }
-  img.chest {
-    float:right;
-  }
-  div.social{
-    margin-top:3rem;
-    margin-right:15%;
-    width:35%;
-    float:right;
-  }
-
-}
+/*SCREEN SPECIFIC STYLES in their own files*/
