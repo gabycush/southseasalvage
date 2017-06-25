@@ -134,9 +134,9 @@ section.copy {
     height:auto;
     width:100%;
   }
-  .menu{
-    width:5rem;
-    margin-top:2%;
+  img.menu{
+    width:120px;
+    margin:1% 0 0 -1%;
   }
   div.row.small{
     padding: 5rem 0 2rem;
