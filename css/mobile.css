@@ -80,8 +80,12 @@
     background-color:#57564a;
     width:100%;
   }
-  div.row.main-content div.small-12 {
+  div.row.main-content div.small-12 p {
     padding:1rem;
     color:white;
+    font-size:2rem;
+  }
+  div.row.main-content div.small-12 h2 {
+    font-size:2.5rem;
   }
 }

@@ -69,7 +69,9 @@
     padding:1rem;
     color:white;
   }
-
+  div.row.main-content div.small-12 h2 {
+    font-size:2rem;
+  }
   .logo{
     padding-top:9%;
   }
