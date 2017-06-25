@@ -1,9 +1,6 @@
 
 
 @media screen and (max-device-width: 736px) { /*Phone*/
-  div.row.header{
-    display:none;
-  }
   .navbar {
     display:none;
   }
@@ -11,8 +8,9 @@
     display:none;
   }
   h2.follow{
-    font-size:1.5rem;
+    font-size:2rem;
     text-align: center;
+    color: #231b19;
   }
   .characters {
     height:auto;
@@ -57,5 +55,13 @@
   }
   h2.follow{
     font-size:4rem;
+  }
+  div.row.main-content {
+    background-color:#57564a;
+    width:100%;
+  }
+  div.row.main-content div.small-4 {
+    padding:1rem;
+    color:white;
   }
 }
