@@ -25,13 +25,12 @@
     display:block;
     padding:2rem;
   }
-
   .image {
     width: 100%;
     margin-left: auto ;
     margin-right: auto ;
     background-color:#f9f7d4;
-  }
+  } 
   .characters {
     height:auto;
     width:100%;

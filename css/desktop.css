@@ -71,6 +71,7 @@
   }
   div.row.main-content div.small-12 h2 {
     font-size:2rem;
+    clear:both;
   }
   .logo{
     padding-top:9%;
