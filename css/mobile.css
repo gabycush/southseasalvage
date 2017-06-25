@@ -30,7 +30,7 @@
     margin-left: auto ;
     margin-right: auto ;
     background-color:#f9f7d4;
-  } 
+  }
   .characters {
     height:auto;
     width:100%;
@@ -83,8 +83,10 @@
     padding:1rem;
     color:white;
     font-size:2.5rem;
+    clear:both;
   }
   div.row.main-content div.small-12 h2 {
     font-size:3.5rem;
+    clear:both;
   }
 }
