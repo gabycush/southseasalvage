@@ -90,6 +90,7 @@
     clear:both;
   }
   div.about-img-chest {
-    width:7rem;
+    width:auto;
+    height:20%;
   }
 }
