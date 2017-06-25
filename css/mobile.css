@@ -13,6 +13,10 @@
   .phone {
     display:none;
   }
+  .logo{
+    padding-top:9%;
+    width:5%;
+  }
   h2.follow{
     font-size:2rem;
     text-align: center;
