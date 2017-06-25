@@ -41,7 +41,7 @@
   }
   img.menu{
     width:10rem;
-    margin-left:-2%;
+    margin-left:1% 0 0 -1%;
   }
   div.row.small{
     padding: 5rem 0 2rem;
