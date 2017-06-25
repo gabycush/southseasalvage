@@ -39,9 +39,9 @@
     height:auto;
     width:100%;
   }
-  .menu{
-    width:5rem;
-    margin-top:2%;
+  img.menu{
+    width:10rem;
+    margin-top:1%;
   }
   div.row.small{
     padding: 5rem 0 2rem;
