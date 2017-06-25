@@ -1,6 +1,12 @@
 
 
 @media screen and (max-device-width: 736px) { /*Phone*/
+  #main {
+    width:100%;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+  }
   .navbar {
     display:none;
   }
@@ -17,14 +23,13 @@
     margin-left: auto ;
     margin-right: auto ;
     display:block;
-    padding:2rem 0;
+    padding:2rem;
   }
 
   .image {
     width: 100%;
     margin-left: auto ;
     margin-right: auto ;
-    padding:0 0 3rem;
     background-color:#f9f7d4;
   }
   .characters {
@@ -75,7 +80,7 @@
     background-color:#57564a;
     width:100%;
   }
-  div.row.main-content div.small-4 {
+  div.row.main-content div.small-12 {
     padding:1rem;
     color:white;
   }

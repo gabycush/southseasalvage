@@ -1,4 +1,10 @@
 @media screen and (min-device-width: 737px) { /*Desktop*/
+  #main {
+    width:77%;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+  }
   div.row.small{
     display:none;
   }
@@ -59,7 +65,7 @@
     background-color:#57564a;
     width:100%;
   }
-  div.row.main-content div.small-4 {
+  div.row.main-content div.small-12 {
     padding:1rem;
     color:white;
   }
