@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Fresca');
 
 body{
   background: url("../img-2/cloud-1.png") no-repeat,
@@ -13,7 +14,9 @@ body{
 
 h1, h2, h3, h4, h5, h6 {
   /*font-family: 'Baloo', cursive;*/
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Fresca', sans-serif;
+  font-weight:800;
+  letter-spacing: 3px;
   color: #EAC14D;
   padding: .5rem 0;
 }
