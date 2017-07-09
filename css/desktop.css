@@ -54,7 +54,8 @@
     font-size: 1.5rem;
     margin-bottom: 2rem;
     width:5rem;
-    font-family: 'Baloo', cursive;
+    /*font-family: 'Baloo', cursive;*/
+    font-family: 'PT Sans', sans-serif;
   }
   a.plank {
     text-decoration: none;

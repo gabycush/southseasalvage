@@ -12,7 +12,8 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Baloo', cursive;
+  /*font-family: 'Baloo', cursive;*/
+  font-family: 'PT Sans', sans-serif;
   color: #EAC14D;
   padding: .5rem 0;
 }
