@@ -7,6 +7,10 @@
     margin-left:auto;
     display:block;
   }
+  h3.mantra{
+    text-align:center;
+    color: #57564a;
+  }
   .navbar {
     display:none;
   }
@@ -55,6 +59,15 @@
   .fb, .tw, .ig {
     padding: 0 5%;
     width:10.5rem;
+  }
+  a.team-link{
+    color:#EAC14D;
+  }
+  a.team-link:hover{
+    color:#f9f7d4;
+  }
+  p.team-desc{
+    width:75%;
   }
   img.coin{
     width:5rem;

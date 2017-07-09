@@ -5,6 +5,10 @@
     margin-left:auto;
     display:block;
   }
+  h3.mantra{
+    text-align:center;
+    color: #57564a;
+  }
   div.row.small{
     display:none;
   }
@@ -72,6 +76,18 @@
   div.row.main-content div.small-12 h2 {
     font-size:2rem;
     clear:both;
+  }
+  .about-img-gameplay{
+    padding-top: 7%;
+  }
+  a.team-link{
+    color:#EAC14D;
+  }
+  a.team-link:hover{
+    color:#f9f7d4;
+  }
+  p.team-desc{
+    width:75%;
   }
   .logo{
     padding-top:9%;
