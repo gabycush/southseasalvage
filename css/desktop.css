@@ -89,6 +89,22 @@
   div.main-content a:hover{
     color:#f9f7d4;
   }
+  button {
+    color:white;
+    width:10rem;
+    height:3rem;
+    border: 2px solid #EAC14D;
+    background-color:#57564a;
+    font-family: 'PT Sans', sans-serif;
+    font-weight:bold;
+    letter-spacing: 1.5px;
+    font-size:1.2em;
+  }
+  button:hover {
+    border: 2px solid #EAC14D;
+    background-color:#EAC14D;
+    color:#57564a;
+  }
   p.team-desc{
     width:75%;
   }
