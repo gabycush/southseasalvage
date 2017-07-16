@@ -27,12 +27,12 @@
     list-style-type: none; /*to remove bullets*/
     text-align: center;
     margin-top:2rem;
+    width:70%;
     float:right;
   }
   .mobile-nav > li.plank{
     line-height:60px;
     font-size: 1.5rem;
-    width:70%;
     margin-bottom:2rem;
     font-family: 'Fresca', sans-serif;
     font-weight:800;
