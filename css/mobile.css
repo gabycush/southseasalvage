@@ -30,7 +30,7 @@
   .mobile-nav > li.plank{
     line-height:60px;
     font-size: 1.5rem;
-    width:100%;
+    width:50%;
     margin-bottom:2rem;
     font-family: 'Fresca', sans-serif;
     font-weight:800;
@@ -43,7 +43,7 @@
     text-align:center;
     background: url("../img-2/plank-2.png") no-repeat bottom center;
     background-size:150%;
-    width:5rem;
+    width:50%;
   }
   .phone {
     display:none;
