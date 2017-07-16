@@ -133,13 +133,13 @@ section.copy {
     list-style-type: none; /*to remove bullets*/
     text-align: center;
     margin-top:2rem;
+    padding-right:25%;
     width:50%;
-    float:right;
   }
   .mobile-nav > li.plank{
     line-height:60px;
     font-size: 1.5rem;
-    margin-bottom:2rem;
+    margin-bottom:3rem;
     font-family: 'Fresca', sans-serif;
     font-weight:800;
     font-size: 4rem;
@@ -150,8 +150,8 @@ section.copy {
     color:#F2E55B;
     text-align:center;
     background: url("../img-2/plank-2.png") no-repeat bottom center;
-    background-size:180%;
-    padding:.3rem 8rem;
+    background-size:120%;
+    padding:.8rem 15rem;
   }
   .phone {
     display:none;
