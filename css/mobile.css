@@ -115,6 +115,17 @@
     font-size:3.5rem;
     clear:both;
   }
+  button {
+    width:10rem;
+    height:3rem;
+    font-family: 'PT Sans', sans-serif;
+    font-weight:bold;
+    letter-spacing: 1.5px;
+    font-size:1.3em;
+    border: 2px solid #EAC14D;
+    background-color:#EAC14D;
+    color:#57564a;
+  }
   div.about-img-chest {
     width:auto;
     height:20%;
