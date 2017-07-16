@@ -43,7 +43,7 @@
     text-align:center;
     background: url("../img-2/plank-2.png") no-repeat bottom center;
     background-size:180%;
-    width:50rem;
+    padding:.3rem 3rem;
   }
   .phone {
     display:none;
