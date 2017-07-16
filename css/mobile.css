@@ -44,8 +44,8 @@
     color:#F2E55B;
     text-align:center;
     background: url("../img-2/plank-2.png") no-repeat bottom center;
-    background-size:100%;
-    padding:.5rem 10rem;
+    background-size:120%;
+    padding:.8rem 15rem;
   }
   .phone {
     display:none;
