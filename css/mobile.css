@@ -27,7 +27,8 @@
     list-style-type: none; /*to remove bullets*/
     text-align: center;
     margin-top:2rem;
-    width:100%;
+    margin-left:25%;
+    width:50%;
     float:right;
   }
   .mobile-nav > li.plank{
