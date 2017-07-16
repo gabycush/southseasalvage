@@ -33,7 +33,7 @@
     width:5rem;
     font-family: 'Fresca', sans-serif;
     font-weight:800;
-    font-size: 3rem;
+    font-size: 4rem;
     letter-spacing: 3px;
   }
   a.plank {
@@ -42,7 +42,7 @@
     text-align:center;
     padding: .5rem 4.35rem;
     background: url("../img-2/plank-2.png") no-repeat bottom center;
-    background-size:14rem;
+    background-size:20rem;
     width:5rem;
   }
   .phone {
