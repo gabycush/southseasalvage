@@ -23,6 +23,11 @@
   .navbar {
     display:none;
   }
+  div.row.menu {
+    width:120px;
+    height:120px;
+    overflow: hidden;
+  }
   .mobile-nav  {
     list-style-type: none; /*to remove bullets*/
     text-align: center;
