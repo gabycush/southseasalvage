@@ -23,6 +23,31 @@
   .navbar {
     display:none;
   }
+  .mobile-nav  {
+    list-style-type: none; /*to remove bullets*/
+    text-align: center;
+    margin-top:-1.7rem;
+    padding-right:1rem;
+  }
+  .mobile-nav > li.plank{
+    display:inline;
+    line-height:60px;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    width:5rem;
+    font-family: 'Fresca', sans-serif;
+    font-weight:800;
+    letter-spacing: 3px;
+  }
+  a.plank {
+    text-decoration: none;
+    color:#F2E55B;
+    text-align:center;
+    padding: .5rem 4.35rem;
+    background: url("../img-2/plank-2.png") no-repeat bottom center;
+    background-size:14rem;
+    width:5rem;
+  }
   .phone {
     display:none;
   }
