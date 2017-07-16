@@ -55,7 +55,6 @@
     font-size: 1.5rem;
     margin-bottom: 2rem;
     width:5rem;
-    /*font-family: 'Baloo', cursive;*/
     font-family: 'Fresca', sans-serif;
     font-weight:800;
     letter-spacing: 3px;
@@ -64,7 +63,7 @@
     text-decoration: none;
     color:#F2E55B;
     text-align:center;
-    padding: .5rem 4.65rem;
+    padding: .5rem 4.35rem;
     background: url("../img-2/plank-2.png") no-repeat bottom center;
     background-size:14rem;
     width:5rem;
@@ -73,7 +72,7 @@
     background-color:#57564a;
     width:100%;
   }
-  div.row.main-content div.small-12 {
+  div.main-content{
     padding:1rem;
     color:white;
   }
@@ -84,10 +83,10 @@
   .about-img-gameplay{
     padding-top: 7%;
   }
-  a.team-link{
+  div.main-content a{
     color:#EAC14D;
   }
-  a.team-link:hover{
+  div.main-content a:hover{
     color:#f9f7d4;
   }
   p.team-desc{
@@ -120,7 +119,7 @@
   div.social{
     margin-top:2rem;
     margin-right:15%;
-    width:35%;
+    width:40%;
     float:right;
   }
 
