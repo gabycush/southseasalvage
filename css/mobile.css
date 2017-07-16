@@ -116,12 +116,12 @@
     clear:both;
   }
   button {
-    width:10rem;
-    height:3rem;
+    width:15rem;
+    height:4rem;
     font-family: 'PT Sans', sans-serif;
     font-weight:bold;
     letter-spacing: 1.5px;
-    font-size:1.3em;
+    font-size:1.1em;
     border: 2px solid #EAC14D;
     background-color:#EAC14D;
     color:#57564a;
