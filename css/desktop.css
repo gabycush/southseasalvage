@@ -73,7 +73,7 @@
     width:100%;
   }
   div.main-content{
-    padding:1rem;
+    padding:2rem;
     color:white;
   }
   div.row.main-content div.small-12 h2 {
@@ -105,8 +105,26 @@
     background-color:#EAC14D;
     color:#57564a;
   }
+  h2.team-title{
+    text-align:center;
+  }
   p.team-desc{
     width:75%;
+  }
+  p.media{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count:2;
+
+    -webkit-column-gap: 1rem; /* Chrome, Safari, Opera */
+    -moz-column-gap: 1rem; /* Firefox */
+    column-gap: 1rem;
+
+    -webkit-column-width: 45%; /* Chrome, Safari, Opera */
+    -moz-column-width: 45%; /* Firefox */
+    column-width: 45%;
+
+    margin-bottom:-75%;
   }
   .logo{
     padding-top:9%;
