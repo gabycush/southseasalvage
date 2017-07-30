@@ -4,10 +4,9 @@
 body{
   background: url("../img-2/cloud-1.png") no-repeat,
   url("../img-2/cloud-2.png") no-repeat,
-  url("../img-2/cloud-3.png") no-repeat,
   linear-gradient(#556AA6, #556AA6);
-  background-position: 8% 18%, right top, 50% 30%;
-  background-size:20%, 30%, 50%, 100%;
+  background-position: 3rem 14rem, right top;
+  background-size:20%, 30%, 100%;
   background-origin: content-box;
   font-family: 'PT Sans', sans-serif;
 }
@@ -24,8 +23,8 @@ h1, h2, h3, h4, h5, h6 {
 section.grass-water{
   background: url("../img-2/palm-trees-water.png") no-repeat,
   url("../img-2/treasure.png") no-repeat,
-  url("../img-2/treasure.png") no-repeat,
-  linear-gradient(#556AA6, #3bc4f2, #3B5398);
+  url("../img-2/treasure.png") no-repeat
+  /*linear-gradient(#556AA6, #3bc4f2, #3B5398)*/;
   background-position: 50% 12rem, bottom left, bottom right, 50% 50% ;
   background-size:100%, 40%, 40%;
   background-origin: content-box;
