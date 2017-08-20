@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Fresca');
 
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
 body{
   background: url("../img-2/cloud-1.png") no-repeat,
   url("../img-2/cloud-2.png") no-repeat,
@@ -8,6 +15,11 @@ body{
   background-position: 8% 18%, right top, 50% 30%;
   background-size:20%, 30%, 50%, 100%;
   background-origin: content-box;
+  -webkit-font-smoothing: antialiased;
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+  text-rendering: optimizeLegibility;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,6 +32,8 @@ section.grass{
   background: url("../img-2/palmtrees.png") 50% 90% no-repeat;
   background-size:100%;
   background-origin: content-box;
+  display: flex;
+    flex-direction: column;
 }
 
 section.water{
