@@ -154,12 +154,11 @@ section.copy {
     margin-top:2rem;
     padding-right:25%;
     width:100%;
+    display:inline;
   }
   .mobile-nav > li.plank{
     line-height:60px;
-    display:inline;
     font-size: 1.5rem;
-    /* margin-bottom:4rem; */
     font-family: 'Fresca', sans-serif;
     font-weight:800;
     font-size: 4rem;
