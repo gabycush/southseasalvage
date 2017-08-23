@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Fresca');
+
+@media screen and (max-device-width: 736px) { /*Phone*/
+  #main {
+    width:100%;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+  }
+  h2{
+    font-size:4rem;
+  }
+  h3{
+    font-size:3.5rem;
+  }
+  h4{
+    font-size:3rem;
+  }
+  h3.mantra{
+    text-align:center;
+    color: #57564a;
+  }
+  .navbar {
+    display:none;
+  }
+  div.row.menu {
+    width:120px;
+    height:120px;
+    /*overflow: hidden;*/
+  }
+  .mobile-nav  {
+    list-style-type: none; /*to remove bullets*/
+    text-align: center;
+    margin-top:2rem;
+    padding-right:25%;
+    width:50%;
+  }
+  .mobile-nav > li.plank{
+    line-height:60px;
+    font-size: 1.5rem;
+    margin-bottom:4rem;
+    font-family: 'Fresca', sans-serif;
+    font-weight:800;
+    font-size: 4rem;
+    letter-spacing: 3px;
+  }
+  .mobile-nav a.plank {
+    text-decoration: none;
+    color:#F2E55B;
+    text-align:center;
+    background: url("../img-2/plank-2.png") no-repeat bottom center;
+    background-size:120%;
+    padding:1rem 15rem;
+  }
+  .phone {
+    display:none;
+  }
+  .logo{
+    padding-top:9%;
+    width:40rem;
+  }
+  h2.follow{
+    font-size:2rem;
+    text-align: center;
+    color: #231b19;
+  }
+  img.banner-img {
+    width:100%;
+    margin-left: auto ;
+    margin-right: auto ;
+    display:block;
+    padding:2rem;
+  }
+  .image {
+    width: 100%;
+    margin-left: auto ;
+    margin-right: auto ;
+    background-color:#f9f7d4;
+  }
+  .characters {
+    height:auto;
+    width:100%;
+  }
+  img.menu{
+    width:120px;
+    margin:1% 0 0 -1%;
+  }
+  div.row.small{
+    padding: 5rem 0 2rem;
+  }
+  .appstore{
+    width:100%;
+  }
+  .googleplay{
+    width:100%;
+  }
+  .fb, .tw, .ig {
+    padding: 0 5%;
+    width:10.5rem;
+  }
+  a.team-link{
+    color:#EAC14D;
+  }
+  a.team-link:hover{
+    color:#f9f7d4;
+  }
+  p.team-desc{
+    width:75%;
+  }
+  img.coin{
+    width:5rem;
+  }
+  div.chest {
+    width:100%;
+  }
+  p.social{
+    width:54%;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+  }
+  img.chest {
+    padding-left:40%;
+  }
+  div.social{
+    margin-top:2rem;
+    width:100%;
+    margin-bottom:2%;
+  }
+  h2.follow{
+    font-size:4rem;
+  }
+  div.row.main-content {
+    background-color:#57564a;
+    width:100%;
+  }
+  div.row.main-content div.small-12 p {
+    padding:1rem;
+    color:white;
+    font-size:2.5rem;
+    clear:both;
+  }
+  div.row.main-content div.small-12 h2 {
+    font-size:3.5rem;
+    clear:both;
+  }
+  button {
+    width:15rem;
+    height:4rem;
+    font-family: 'PT Sans', sans-serif;
+    font-weight:bold;
+    letter-spacing: 1.5px;
+    font-size:1.1em;
+    border: 2px solid #EAC14D;
+    background-color:#EAC14D;
+    color:#57564a;
+  }
+  div.about-img-chest {
+    width:auto;
+    height:20%;
+  }
+}

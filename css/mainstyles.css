@@ -44,4 +44,9 @@ section.copy {
   color: #231b19;
 }
 
+.banner-img {
+  width:2%;
+  height:2%;
+}
+
 /*SCREEN SPECIFIC STYLES in their own files*/
