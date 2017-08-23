@@ -147,6 +147,9 @@ section.copy {
     width:120px;
     height:120px;
     overflow: hidden;
+    background: url("../img-2/plank-2.png") no-repeat bottom center;
+    background-size:120%;
+    padding:.8rem 15rem;
   }
   .mobile-nav  {
     list-style-type: none; /*to remove bullets*/
@@ -157,6 +160,7 @@ section.copy {
   }
   .mobile-nav > li.plank{
     line-height:60px;
+    display:inline;
     font-size: 1.5rem;
     margin-bottom:3rem;
     font-family: 'Fresca', sans-serif;
@@ -168,9 +172,6 @@ section.copy {
     text-decoration: none;
     color:#F2E55B;
     text-align:center;
-    background: url("../img-2/plank-2.png") no-repeat bottom center;
-    background-size:120%;
-    padding:.8rem 15rem;
   }
   .phone {
     display:none;
