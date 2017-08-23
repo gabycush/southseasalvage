@@ -153,7 +153,6 @@ section.copy {
     text-align: center;
     margin-top:2rem;
     padding-right:25%;
-    width:100%;
   }
   .mobile-nav > li.plank{
     line-height:60px;
@@ -162,12 +161,11 @@ section.copy {
     font-weight:800;
     font-size: 4rem;
     letter-spacing: 3px;
-    display:inline-block;
   }
   .mobile-nav a.plank {
     text-decoration: none;
     color:#F2E55B;
-    padding:1rem 15px;
+    display:inline;
   }
   .phone {
     display:none;
