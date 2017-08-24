@@ -153,19 +153,19 @@ section.copy {
     margin-top:2rem;
     padding-right:25%;
   }
-  .mobile-nav > li.plank{
+  li.plank{
     line-height:60px;
     font-size: 1.5rem;
     font-family: 'Fresca', sans-serif;
     font-weight:800;
     font-size: 4rem;
     letter-spacing: 3px;
-    float: left;
-    padding-right:1rem;
   }
-  .mobile-nav a.plank {
+  a.plank {
     text-decoration: none;
     color:#F2E55B;
+    float: left;
+    padding-right:1rem;
   }
   .phone {
     display:none;

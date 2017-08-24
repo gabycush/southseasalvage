@@ -35,7 +35,7 @@
     padding-right:25%;
     width:50%;
   }
-  .mobile-nav > li.plank{
+  li.plank{
     line-height:60px;
     font-size: 1.5rem;
     margin-bottom:4rem;
@@ -44,7 +44,7 @@
     font-size: 4rem;
     letter-spacing: 3px;
   }
-  .mobile-nav a.plank {
+  a.plank {
     text-decoration: none;
     color:#F2E55B;
     text-align:center;
