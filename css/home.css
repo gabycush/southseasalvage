@@ -150,7 +150,6 @@ section.copy {
   }
   .mobile-nav  {
     list-style-type: none; /*to remove bullets*/
-    text-align: center;
     margin-top:2rem;
     padding-right:25%;
   }
@@ -161,7 +160,8 @@ section.copy {
     font-weight:800;
     font-size: 4rem;
     letter-spacing: 3px;
-    display:inline !important;
+    float: left;
+    padding-right:1rem;
   }
   .mobile-nav a.plank {
     text-decoration: none;
