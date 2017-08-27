@@ -24,33 +24,36 @@
     display:none;
   }
   div.row.menu {
-    width:120px;
-    height:120px;
-    /*overflow: hidden;*/
+    width:100%;
+    height:230px;
+    /*background: url("../img-2/plank-2.png") no-repeat bottom center;
+    background-size:105%;*/
   }
   .mobile-nav  {
     list-style-type: none; /*to remove bullets*/
-    text-align: center;
-    margin-top:2rem;
-    padding-right:25%;
-    width:50%;
+    margin-top:4rem;
   }
-  .mobile-nav > li.plank{
+  li.plank{
     line-height:60px;
-    font-size: 1.5rem;
-    margin-bottom:4rem;
+    font-size: 2rem;
     font-family: 'Fresca', sans-serif;
     font-weight:800;
     font-size: 4rem;
     letter-spacing: 3px;
+    border: 1px solid black;
+    background-color:black;
+    border-radius:100%;
+    height:6rem;
+    width:6rem;
+    text-align:center;
+    float:left;
+    margin-right: 7%;
+    margin-left:7%;
   }
-  .mobile-nav a.plank {
+  a.plank {
+    padding-top:2rem;
     text-decoration: none;
     color:#F2E55B;
-    text-align:center;
-    background: url("../img-2/plank-2.png") no-repeat bottom center;
-    background-size:120%;
-    padding:1rem 15rem;
   }
   .phone {
     display:none;
