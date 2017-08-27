@@ -11,7 +11,7 @@ body{
   background: url("../img-2/cloud-1.png") no-repeat,
   url("../img-2/cloud-2.png") no-repeat,
   url("../img-2/cloud-3.png") no-repeat,
-  linear-gradient(#3B5398, #Ffffff);
+  linear-gradient(#3bc4f2, #3B5398);
   background-position: 8% 18%, right top, 50% 30%;
   background-size:20%, 30%, 50%, 100%;
   background-origin: content-box;
