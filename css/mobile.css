@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Fresca');
 
 @media screen and (max-device-width: 736px) { /*Phone*/
+  div.row.header{
+    margin-top:20rem;
+  }
   #main {
     width:100%;
     margin-right:auto;
@@ -131,7 +134,6 @@
   div.row.main-content {
     background-color:#57564a;
     width:100%;
-    margin-top:20rem;
   }
   div.row.main-content div.small-12 p {
     padding:1rem;
