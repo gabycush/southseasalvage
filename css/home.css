@@ -151,7 +151,6 @@ section.copy {
   .mobile-nav  {
     list-style-type: none; /*to remove bullets*/
     margin-top:2rem;
-    padding-right:25%;
   }
   li.plank{
     line-height:60px;
@@ -161,7 +160,7 @@ section.copy {
     font-size: 4rem;
     letter-spacing: 3px;
     float:left;
-    padding-right: 5px;
+    padding-right: 15px;
   }
   a.plank {
     text-decoration: none;
