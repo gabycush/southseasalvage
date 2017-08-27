@@ -160,7 +160,8 @@ section.copy {
     font-weight:800;
     font-size: 4rem;
     letter-spacing: 3px;
-    position: relative;
+    float:left;
+    padding-right: 15px;
   }
   a.plank {
     text-decoration: none;
