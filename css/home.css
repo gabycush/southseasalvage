@@ -145,9 +145,9 @@ section.copy {
   }
   div.row.menu {
     width:100%;
-    height:320px;
+    height:260px;
     background: url("../img-2/plank-2.png") no-repeat bottom center;
-    background-size:120%;
+    background-size:110%;
   }
   .mobile-nav  {
     list-style-type: none; /*to remove bullets*/
