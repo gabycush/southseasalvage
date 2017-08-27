@@ -163,8 +163,9 @@ section.copy {
     border: 1px solid black;
     background-color:black;
     border-radius:100%;
-    height:3rem;
-    width:3rem;
+    height:9rem;
+    width:9rem;
+    text-align:center;
     float:left;
     margin-right: 6%;
     margin-left:6%;
