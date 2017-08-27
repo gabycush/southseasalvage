@@ -83,10 +83,6 @@
     height:auto;
     width:100%;
   }
-  img.menu{
-    width:120px;
-    margin:1% 0 0 -1%;
-  }
   div.row.small{
     padding: 5rem 0 2rem;
   }
@@ -135,6 +131,7 @@
   div.row.main-content {
     background-color:#57564a;
     width:100%;
+    margin-top:20rem;
   }
   div.row.main-content div.small-12 p {
     padding:1rem;
