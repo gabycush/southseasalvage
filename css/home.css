@@ -166,12 +166,12 @@ section.copy {
     height:6rem;
     width:6rem;
     text-align:center;
-    margin-top:2rem;
     float:left;
     margin-right: 6%;
     margin-left:6%;
   }
   a.plank {
+    margin-top:2rem;
     text-decoration: none;
     color:#F2E55B;
   }
