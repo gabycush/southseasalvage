@@ -148,7 +148,7 @@ section.copy {
     height:120px;
     background-color: rgba(200, 201, 192, .75);
     position:fixed;
-    margin-top:-1.5em;
+    margin-top:-1em;
   }
   .mobile-nav  {
     list-style-type: none; /*to remove bullets*/
