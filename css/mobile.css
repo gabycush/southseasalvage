@@ -35,7 +35,7 @@
   }
   .mobile-nav  {
     list-style-type: none; /*to remove bullets*/
-    padding:20px 0;
+    padding:20px 0 40;
   }
   li.plank{
     line-height:60px;
@@ -44,8 +44,8 @@
     font-weight:800;
     font-size: 4rem;
     letter-spacing: 3px;
-    height:6rem;
-    width:6rem;
+    height:10rem;
+    width:10rem;
     text-align:center;
     float:left;
     margin-right: 7%;
