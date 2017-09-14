@@ -151,7 +151,7 @@ section.copy {
   }
   .mobile-nav  {
     list-style-type: none; /*to remove bullets*/
-    margin-top:2rem;
+    margin-top:-20px;
   }
   li.plank{
     line-height:60px;
