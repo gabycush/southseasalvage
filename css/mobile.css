@@ -35,7 +35,7 @@
   }
   .mobile-nav  {
     list-style-type: none; /*to remove bullets*/
-    padding:20px 0 40;
+    padding:10px 0;
   }
   li.plank{
     line-height:60px;
