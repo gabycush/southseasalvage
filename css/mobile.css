@@ -31,7 +31,7 @@
     height:120px;
     background-color: rgba(56, 197, 243, .75);
     position:fixed;
-    margin-top:-1.8em;
+    margin-top:-1.5em;
   }
   .mobile-nav  {
     list-style-type: none; /*to remove bullets*/
