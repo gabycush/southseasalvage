@@ -148,10 +148,10 @@ section.copy {
     height:120px;
     background-color: rgba(255, 255, 255, .05);
     position:fixed;
+    margin-top:-2em;
   }
   .mobile-nav  {
     list-style-type: none; /*to remove bullets*/
-    margin-top:-20px;
   }
   li.plank{
     line-height:60px;
