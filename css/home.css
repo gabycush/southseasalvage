@@ -151,7 +151,7 @@ section.copy {
   }
   .mobile-nav  {
     list-style-type: none; /*to remove bullets*/
-    margin-top:4rem;
+    margin-top:2rem;
   }
   li.plank{
     line-height:60px;
@@ -160,9 +160,6 @@ section.copy {
     font-weight:800;
     font-size: 4rem;
     letter-spacing: 3px;
-    border: 1px solid black;
-    background-color:black;
-    border-radius:100%;
     height:6rem;
     width:6rem;
     text-align:center;
@@ -174,6 +171,10 @@ section.copy {
     padding-top:2rem;
     text-decoration: none;
     color:#F2E55B;
+  }
+  a.plank > img {
+    height:6rem;
+    width:6rem;
   }
   .phone {
     display:none;
