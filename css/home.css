@@ -32,6 +32,8 @@ section.grass{
   background: url("../img-2/palmtrees.png") 50% 90% no-repeat;
   background-size:100%;
   background-origin: content-box;
+  display: flex;
+    flex-direction: column;
 }
 
 section.water{
@@ -43,8 +45,10 @@ section.water{
 
 section.about {
   width:100%;
+  height:55rem;
   padding:2rem;
-  color:white;
+  background:linear-gradient(#3bc4f2, #3B5398);
+  overflow:hidden;
 }
 section.about div.small-12 h2 {
 font-size:2rem;
@@ -64,6 +68,33 @@ section.copy {
   text-align: center;
   width:100%;
   padding-top:1rem;
+}
+
+.about-bubble {
+  background: url("../img-2/bubble-1.png") no-repeat;
+  width: 300px;
+  height:300px;
+  text-align:center;
+  padding:3.5rem 3rem 3rem 4rem;
+  clear:both;
+}
+
+.bubbles{
+  width:70%;
+  height:70%;
+}
+
+.bubbles-sm{
+  width:40%;
+  height:40%;
+}
+.two-sm{
+  width:10%;
+  height:10%;
+}
+
+.clear{
+  padding-top:5rem;
 }
 
 /*SCREEN SPECIFIC STYLES*/
@@ -156,21 +187,11 @@ section.copy {
     display:none;
   }
   div.row.menu {
-<<<<<<< HEAD
-    display: flex;
-    flex-direction: column;
-  }
-  div.menu-items {
-    display: none;
-    flex: 1;
-    transform: 300ms all ease;
-=======
     width:100%;
     height:120px;
     background-color: rgba(56, 197, 243, .75);
     position:fixed;
     margin-top:0em;
->>>>>>> 4d1e150309ee2054072e6aa709a0fd791e653034
   }
   .mobile-nav  {
     list-style-type: none; /*to remove bullets*/
@@ -183,36 +204,21 @@ section.copy {
     font-weight:800;
     font-size: 4rem;
     letter-spacing: 3px;
-<<<<<<< HEAD
-    position: relative;
-=======
     height:10rem;
     width:10rem;
     text-align:center;
     float:left;
     margin-right: 7%;
     margin-left:7%;
->>>>>>> 4d1e150309ee2054072e6aa709a0fd791e653034
   }
   a.plank {
     padding-top:2rem;
     text-decoration: none;
     color:#F2E55B;
-<<<<<<< HEAD
-    text-align:center;
-    background: url("../img-2/plank-2.png") no-repeat bottom center;
-    background-size:120%;
-    padding:.8rem 15rem;
-    transition: 250ms all ease;
-  }
-  .mobile-nav > li.plank{
-    border-bottom:none;89i-+8
-=======
   }
   a.plank > img {
     height:6rem;
     width:6rem;
->>>>>>> 4d1e150309ee2054072e6aa709a0fd791e653034
   }
   .phone {
     display:none;
