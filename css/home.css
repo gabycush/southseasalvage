@@ -97,6 +97,19 @@ section.copy {
   padding-top:5rem;
 }
 
+.one{
+  margin-top:1rem;
+}
+.two{
+  margin-top:3rem;  
+}
+.three{
+  margin-top:.5rem;
+}
+.four{
+  margin-top:2rem;
+}
+
 /*SCREEN SPECIFIC STYLES*/
 
 @media screen and (min-device-width: 737px) { /*Desktop*/
