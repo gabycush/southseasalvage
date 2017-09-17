@@ -42,6 +42,20 @@ section.water{
   background-size:cover;
   background-origin: content-box;
 }
+
+section.about {
+  width:100%;
+  padding:2rem;
+  color:white;
+}
+section.about div.small-12 h2 {
+font-size:2rem;
+clear:both;
+}
+.about-img-gameplay{
+padding-top: 7%;
+}
+
 section.sand{
   background-color:#f9f7d4;
   padding:5% 0;
