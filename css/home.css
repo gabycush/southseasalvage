@@ -221,8 +221,8 @@ section.copy {
   }
   .about-bubble {
     background: url("../img-2/bubble-1.png") no-repeat;
-    width: 50%;
-    height:50%;
+    width: 10rem;
+    height:10rem;
     text-align:center;
     padding:3.5rem 3rem 3rem 4rem;
     clear:both;
