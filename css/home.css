@@ -32,8 +32,6 @@ section.grass{
   background: url("../img-2/palmtrees.png") 50% 90% no-repeat;
   background-size:100%;
   background-origin: content-box;
-  display: flex;
-    flex-direction: column;
 }
 
 section.water{
@@ -144,9 +142,13 @@ section.copy {
     display:none;
   }
   div.row.menu {
-    width:120px;
-    height:120px;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  div.menu-items {
+    display: none;
+    flex: 1;
+    transform: 300ms all ease;
   }
   .mobile-nav  {
     list-style-type: none; /*to remove bullets*/
@@ -163,6 +165,7 @@ section.copy {
     font-weight:800;
     font-size: 4rem;
     letter-spacing: 3px;
+    position: relative;
   }
   .mobile-nav a.plank {
     text-decoration: none;
@@ -171,6 +174,10 @@ section.copy {
     background: url("../img-2/plank-2.png") no-repeat bottom center;
     background-size:120%;
     padding:.8rem 15rem;
+    transition: 250ms all ease;
+  }
+  .mobile-nav > li.plank{
+    border-bottom:none;89i-+8
   }
   .phone {
     display:none;
