@@ -45,7 +45,7 @@ section.water{
 
 section.about {
   width:100%;
-  height:55rem;
+  height:100%;
   padding:2rem;
   background:linear-gradient(#3bc4f2, #3B5398);
   overflow:hidden;
