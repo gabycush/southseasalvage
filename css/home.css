@@ -49,9 +49,11 @@ section.about {
   padding:2rem;
   background:linear-gradient(#3bc4f2, #3B5398);
   overflow:hidden;
+  color: #f9f7d4;
 }
 section.about div.small-12 h2 {
 font-size:2rem;
+color: #EAC14D;
 clear:both;
 }
 .about-img-gameplay{
