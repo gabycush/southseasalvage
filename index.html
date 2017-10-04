@@ -29,7 +29,6 @@
         <ul class="mobile-nav">
           <!-- <li class="plank"><a class="plank" href="about.html"><img src="img-2/home-mobile.png" alt="home"/></a></li> -->
           <li class="plank"><a class="plank" href="team.html"><img src="img-2/team-mobile.png" alt="team"/></a></li>
-          <li class="plank"><a class="plank" href="media.html"><img src="img-2/media-mobile.png" alt="media"/></a></li>
           <li class="plank"><a class="plank" href="contact.html"><img src="img-2/contact-mobile.png" alt="contact"/></a></li>
         </ul>
       </nav>
@@ -48,7 +47,6 @@
       <ul class="">
         <!-- <li class="plank"><a class="plank" href="about.html">&nbsp;About&nbsp; </a></li> -->
         <li class="plank"><a class="plank" href="team.html">&nbsp;&nbsp;Team&nbsp;&nbsp;</a></li>
-        <li class="plank"><a class="plank" href="media.html">&nbsp;Media&nbsp;</a></li>
         <li class="plank"><a class="plank" href="contact.html">Contact</a></li>
       </ul>
     </div>
@@ -142,14 +140,15 @@
   
   <script>
       var images = new Array;
-      images[0] = "img-2/media-page/ping-1.png";
-      images[1] = "img-2/media-page/mechanic-1.png";
-      images[2] = "img-2/media-page/first-mate1.png";
-      // images[3] = "img-2/";
-      // images[4] = "img-2/";
-      // images[5] = "img-2/";
-      // images[6] = "img-2/";
-      // images[7] = "img-2/";
+      images[0] = "img-2/screenshots/portscreen.png";
+      images[1] = "img-2/media-page/first-mate1.png";
+      images[2] = "img-2/screenshots/FishingLevel.png";
+      images[3] = "img-2/media-page/ping-1.png";
+      images[4] = "img-2/screenshots/Map2.png";
+      images[5] = "img-2/screenshots/ProspectingLevel.png";
+      images[6] = "img-2/screenshots/levelComplete.png";
+      images[7] = "img-2/media-page/mechanic-1.png";
+      
       var presentimage = 0;
       
       document.getElementsByClassName('next-link')[0].addEventListener('click', function() {
@@ -169,6 +168,7 @@
           }
           document.getElementById('slideshowimage').setAttribute('src', images[presentimage]);
           document.getElementById('slideshowimage').setAttribute('class', 'float-center');
+          document.getElementById('slideshowimage').setAttribute('style', 'height:500px');
       }
       alterimage(0);
 
