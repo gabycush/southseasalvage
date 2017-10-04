@@ -68,7 +68,7 @@ body {font-family: Verdana,sans-serif;}
 }
 
 .slideshow {
-    width:70%;
+    width:55%;
     height:550px;
     overflow:hidden;
     border: .5rem solid white;
@@ -76,17 +76,25 @@ body {font-family: Verdana,sans-serif;}
     border-radius:10%;
 }
 
-#slideshowcontrols {
-    border:none;
-    font-size: 5rem;
-} 
-
-#slideshowcontrols > a{
+p.slideshowcontrols{
     color: white;
 }
 
-a.prev-link{
-    position:relative;
-    top:-5rem;
-    left:-5px;
+p.slideshowcontrols{
+  color: white;
+  font-size: 3rem;
+  display:inline;
+  margin-left:30%;
 }
+
+/* p.prev-link{
+  position:relative;
+  left:15rem;
+  top:20rem;
+}
+
+p.next-link{
+  position:relative;
+  left:71rem;
+  bottom:20.1rem;
+} */

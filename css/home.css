@@ -19,7 +19,9 @@ body{
   height: auto !important;
   height: 100%;
   min-height: 100%;
+  width:auto;
   text-rendering: optimizeLegibility;
+  overflow:scroll;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -90,6 +92,7 @@ div.spacer{
 
 .media{
   background: linear-gradient(#3B5398, #3B5398);
+  padding:3rem;
 }
 
 /*SCREEN SPECIFIC STYLES*/
