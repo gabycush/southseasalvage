@@ -68,10 +68,11 @@ body {font-family: Verdana,sans-serif;}
 }
 
 .slideshow {
-    width:55%;
-    height:550px;
+    width:40%;
+    height:100%;
     overflow:hidden;
-    border: .5rem solid white;
+    border: .1rem solid black;
+    background-color:black;
     padding:1rem;
     border-radius:10%;
 }

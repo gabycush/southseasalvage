@@ -83,7 +83,7 @@
             </strong></p>
           </div>
           <div class="bubble-img">
-            <img src="img-2/screenshots/gameplay.png" alt="map of the game" title="game map" />
+            <img src="img-2/screenshots/ProspectingLevel-bubble.png" alt="map of the game" title="game map" />
           </div>
         </div>
         <div class="small-12 large-3 columns"><!--COLUMN FOUR vv -->  
@@ -103,10 +103,10 @@
 
     <section class="media" id="media">
         <div id="slideshow" class="slideshow float-center">
-          <img id="slideshowimage"/>
+          <img id="slideshowimage" />
         </div>
-        <p href='#media' class='slideshowcontrols prev-link'><strong>&lt;</strong></p>
-        <p href='#media' class='slideshowcontrols next-link'><strong>&gt;</strong></p>
+        <p href='#media' class='slideshowcontrols prev-link'><strong></strong></p>
+        <p href='#media' class='slideshowcontrols next-link'><strong></strong></p>
     </section>
   </section>
 
@@ -157,7 +157,10 @@
       document.getElementsByClassName('prev-link')[0].addEventListener('click', function() {
           alterimage(-1);
       });
-      
+      document.getElementsByClassName('slideshow')[0].addEventListener('click', function() {
+          alterimage(1);
+      });
+
       var alterimage = function alterimage(alter){
           presentimage += alter;
           if(presentimage >= images.length){
@@ -168,24 +171,19 @@
           }
           document.getElementById('slideshowimage').setAttribute('src', images[presentimage]);
           document.getElementById('slideshowimage').setAttribute('class', 'float-center');
-          document.getElementById('slideshowimage').setAttribute('style', 'height:500px');
+          document.getElementById('slideshow').setAttribute('style', 'height:800px');
       }
       alterimage(0);
 
-      // var slideIndex = 0;
-      // showSlides();
+      showSlides();
 
-      // function showSlides() {
-      //     var i;
-      //     var slides = document.getElementsById("slideshowimage");
-      //     for (i = 0; i < slides.length; i++) {
-      //         slides[i].style.display = "none"; 
-      //     }
-      //     slideIndex++;
-      //     if (slideIndex > slides.length) {slideIndex = 1} 
-      //     slides[slideIndex-1].style.display = "block"; 
-      //     setTimeout(showSlides, 2000); // Change image every 2 seconds
-      // }
+      function showSlides() {
+          alterimage(presentimage);
+          presentimage++;
+          if (presentimage >= images.length) {presentimage = 0} 
+          document.getElementById('slideshowimage').setAttribute('style', "display:block"); 
+          setTimeout(showSlides, 2500); // Change image every 2 seconds
+      }
       </script>
 
 </body>
