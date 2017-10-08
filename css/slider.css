@@ -68,34 +68,26 @@ body {font-family: Verdana,sans-serif;}
 }
 
 .slideshow {
-    width:40%;
     height:100%;
     overflow:hidden;
-    border: .1rem solid black;
-    background-color:black;
     padding:1rem;
     border-radius:10%;
-}
-
-p.slideshowcontrols{
-    color: white;
+    margin-top:-10rem;
 }
 
 p.slideshowcontrols{
   color: white;
   font-size: 3rem;
-  display:inline;
-  margin-left:30%;
 }
 
-/* p.prev-link{
+ p.prev-link{
   position:relative;
-  left:15rem;
+  left:17rem;
   top:20rem;
 }
 
 p.next-link{
-  position:relative;
-  left:71rem;
-  bottom:20.1rem;
-} */
+  position: relative;
+  left:50rem;
+  top:14.2rem;
+} 
