@@ -48,8 +48,10 @@ section.water{
 section.about {
   width:100%;
   height:100%;
-  padding:2rem;
-  background:linear-gradient(#3bc4f2, #3B5398);
+  padding:2rem 2rem 9rem 2rem;
+  background:url("../img-2/treasure.png") repeat-x,
+  linear-gradient(#3bc4f2, #3B5398);
+  background-position:bottom left, 50% 50% ;
   overflow:hidden;
   color: #f9f7d4;
 }
@@ -80,14 +82,58 @@ section.copy {
   width: 300px;
   height:300px;
 }
-
-div.spacer{
-  background: url("../img-2/bubble-filler.png") repeat-x,
-  linear-gradient(#3B5398, #3B5398);
-  background-size:20%, 30%;
+section.slideshow{
+  background-color:#f9f7d4;
+  padding:5% 0;
+}
+section.playnow{
+  margin-top:-4rem;
+  background: url("../img-2/water-layer.png") 50% 50% no-repeat, linear-gradient(#3bc4f2, #3bc4f2);
+  background-size:cover;
   background-origin: content-box;
-  width: 100%;
-  height:10rem;
+}
+section.team{
+  background-color:#f9f7d4;
+  padding:5% 0;
+}
+
+
+section.contact {
+  background-color:#57564a;
+  width:100%;
+}
+div.main-content{
+  padding:2rem;
+  color:white;
+}
+div.row.main-content div.small-12 h2 {
+  font-size:2rem;
+  clear:both;
+}
+.about-img-gameplay{
+  padding-top: 7%;
+}
+div.main-content a{
+  color:#EAC14D;
+}
+div.main-content a:hover{
+  color:#f9f7d4;
+}
+button {
+  color:white;
+  width:10rem;
+  height:3rem;
+  border: 2px solid #EAC14D;
+  background-color:#57564a;
+  font-family: 'PT Sans', sans-serif;
+  font-weight:bold;
+  letter-spacing: 1.5px;
+  font-size:1.3em;
+}
+button:hover {
+  border: 2px solid #EAC14D;
+  background-color:#EAC14D;
+  color:#57564a;
 }
 
 
@@ -108,16 +154,22 @@ div.spacer{
     text-align: center;
   }
   .about-bubble {
-  background: url("../img-2/bubble-1.png") no-repeat;
-  width: 300px;
-  height:300px;
-  text-align:center;
-  padding:2.5rem 4.5rem 3rem 1.5rem;
-  clear:both;
-  margin-left:1rem;
+    background: url("../img-2/bubble-1.png") no-repeat;
+    width: 300px;
+    height:300px;
+    text-align:center;
+    padding:2.5rem 4.5rem 3rem 1.5rem;
+    clear:both;
+    margin-left:1rem;
+  }
+  .explore{
+    text-align:center;
+    width: 50%;
+    font-size:1.3rem;
+    padding: 2rem 0;
   }
   .one{
-  margin-top:1rem;
+    margin-top:1rem;
   }
   .two{
     margin-top:3rem;  
