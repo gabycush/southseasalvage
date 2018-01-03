@@ -57,7 +57,7 @@ section.about {
 }
 section.about div.small-12 h2 {
 font-size:2rem;
-color: #EAC14D;
+color: #fde703;
 clear:both;
 }
 
@@ -297,9 +297,9 @@ hr{
   }
   a.plank {
     text-decoration: none;
-    color:#F2E55B;
+    color:#fde703;
     text-align:center;
-    padding: .5rem 6rem;
+    padding: .5rem 4rem;
     background: url("../img-2/plank-2.png") no-repeat bottom center;
     background-size:14rem;
     width:5rem;
@@ -372,7 +372,7 @@ hr{
   a.plank {
     padding-top:2rem;
     text-decoration: none;
-    color:#F2E55B;
+    color:#fde703;
   }
   a.plank > img {
     height:6rem;
