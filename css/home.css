@@ -82,9 +82,9 @@ section.copy {
   width: 300px;
   height:300px;
 }
-section.slideshow{
+section.screenshots{
   background-color:#f9f7d4;
-  padding:5% 0;
+  padding:5% 0 0;
 }
 section.playnow{
   margin-top:-4rem;
@@ -96,30 +96,48 @@ section.team{
   background-color:#f9f7d4;
   padding:5% 0;
 }
+img.collectable{
+  padding-left:1.8em;
+  display:inline-block;
+}
 
+div.explorelogo{
+  width:70%;
+}
+
+section.seainfo, section.seainfo > div{
+  background:#f9f7d4;
+  height:100%;
+  display:block;
+  padding:1% 0;
+}
+section.seainfo  h1 {
+  color: #3bc4f2;
+  text-align:center;
+}
 
 section.contact {
   background-color:#57564a;
   width:100%;
 }
-div.main-content{
+section.contact div.main-content{
   padding:2rem;
   color:white;
 }
-div.row.main-content div.small-12 h2 {
+section.contact div.row.main-content div.small-12 h2 {
   font-size:2rem;
   clear:both;
 }
-.about-img-gameplay{
+section.contact .about-img-gameplay{
   padding-top: 7%;
 }
-div.main-content a{
+section.contact div.main-content a{
   color:#EAC14D;
 }
-div.main-content a:hover{
+section.contact div.main-content a:hover{
   color:#f9f7d4;
 }
-button {
+section.contact button {
   color:white;
   width:10rem;
   height:3rem;
@@ -130,12 +148,88 @@ button {
   letter-spacing: 1.5px;
   font-size:1.3em;
 }
-button:hover {
+section.contact button:hover {
   border: 2px solid #EAC14D;
   background-color:#EAC14D;
   color:#57564a;
 }
+.slider h3{
+  color:#fde703;
+}
+.slider{
+  color:white;
+  height:100%;
+  background-image: url("../img-2/Background-slideshow.png");
+  background-size: cover;
+  overflow:hidden;
+  padding:2% 0;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+img.treasure-chest{
+  padding-top:5%;
+  width:200px;
+}
+img.crew{
+  height:300px;
+  margin-top:30%;
+}
 
+section.playnow{
+  background-image: url("../img-2/Play-now-background.png");
+  background-size: cover;
+  height:475px;
+  display:block;
+  width:100%;
+}
+div.download{
+  padding: 3% 0 0 11%;
+  color:#fde703;
+}
+img.download-on{
+  width:25%;
+}
+.team h2{
+  padding-left:11%;
+}
+div.team-bios{
+  text-align:center;
+  width:75%;
+  height:600px;
+  display:block;
+}
+div.team-member{
+  padding:1%;
+}
+p.team-member{
+  height:110px;
+}
+p.read-more{
+	height:30px;
+	-webkit-transition: width 2s, height 4s;
+  transition: width 2s, height 4s;
+	overflow:hidden;
+}
+div.groups{
+  text-align:center;
+}
+img.group-logo1{
+  margin:0 4%;
+  height:75px;
+}
+img.group-logo2{
+  margin:0 4%;
+  height:55px;
+}
+hr{
+  color: #888;
+  background-color:#888;
+  height:1px;
+}
+.screenshots h2, .team h2{
+  color:#31b8eb;
+}
 
 /*SCREEN SPECIFIC STYLES*/
 
@@ -164,9 +258,8 @@ button:hover {
   }
   .explore{
     text-align:center;
-    width: 50%;
+    width: 70%;
     font-size:1.3rem;
-    padding: 2rem 0;
   }
   .one{
     margin-top:1rem;

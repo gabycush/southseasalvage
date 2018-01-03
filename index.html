@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="foundation/css/foundation.min.css">
   <link rel="stylesheet" href="css/home.css" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+  <link rel="stylesheet" href="css/slider.css" type="text/css" />
 </head>
 <body>
   <section class="header">
@@ -25,11 +26,11 @@
     </div>
     <div class="row menu">
       <nav class="small-12 columns menu-items">
-        <ul class="mobile-nav">
+        <!-- <ul class="mobile-nav">
           <li class="plank"><a class="plank" href="media.html"><img src="img-2/media-mobile.png" alt="media"/></a></li>
           <li class="plank"><a class="plank" href="team.html"><img src="img-2/team-mobile.png" alt="team"/></a></li>
           <li class="plank"><a class="plank" href="contact.html"><img src="img-2/contact-mobile.png" alt="contact"/></a></li>
-        </ul>
+        </ul> -->
       </nav>
     </div>
     <div class="row column">
@@ -43,34 +44,28 @@
       <div class="small-6 columns"><img class="googleplay float-left" src="img-2/googleplay.png" /></div>
     </div>
     <div class="row column navbar">
-      <ul class="">
+      <!-- <ul class="">
         <li class="plank"><a class="plank" href="media.html">&nbsp;Media&nbsp; </a></li> 
         <li class="plank"><a class="plank" href="team.html">&nbsp;&nbsp;Team&nbsp;&nbsp;</a></li>
         <li class="plank"><a class="plank" href="contact.html">Contact</a></li>
-      </ul>
+      </ul> -->
     </div>
       <section class="about">
         <div class="small-12 large-12 columns">
-          <img class="float-center explore" src="img-2/Explore-the-SCS.png" alt="Explore the South China Sea" />
+          <img class="float-center explorelogo" src="img-2/Explore-the-SCS.png" alt="Explore the South China Sea" />
         </div>
         <div class="small-12 large-12 columns">
-            <div class="small-2 large-2 large-offset-1 columns">
-              <img class="float-center" src="img-2/Tiger-Bell.png" alt="" />
-            </div>
-            <div class="small-2 large-2 columns">
-              <img class="float-center" src="img-2/Lion-Gong.png" alt="" />
-            </div>
-            <div class="small-2 large-2 columns">
-              <img class="float-center" src="img-2/Dragon-incence.png" alt="" />
-            </div>
-            <div class="small-2 large-2 columns">
-              <img class="float-center" src="img-2/Frog-Gem.png" alt="" />
-            </div>
-            <div class="small-2 large-2 columns">
-              <img class="float-center" src="img-2/phoenix-vase.png" alt="" />
-            </div>
-            <div class="small-1 large-1 columns">
-               <p></p>
+            <div class="float-center explore">
+              <img class="collectable" src="img-2/Tiger-Bell.png" alt="" />
+            
+              <img class="collectable" src="img-2/Lion-Gong.png" alt="" />
+            
+              <img class="collectable" src="img-2/Dragon-incence.png" alt="" />
+            
+              <img class="collectable" src="img-2/Frog-Gem.png" alt="" />
+            
+              <img class="collectable" src="img-2/phoenix-vase.png" alt="" />
+            
             </div>
         </div>
         <div class="small-12 large-12 columns">
@@ -88,13 +83,13 @@
             </strong></p>
           </div>
           <div class="bubble-img">
-            <img src="img-2/screenshots/main-screen.png" alt="map of the game" title="game map" />
+            <img src="img-2/screenshots/main-screen.png" alt="map of the game" title=" " />
           </div>
           
         </div>
         <div class="small-12 large-3 columns"><!--COLUMN TWO vv -->
           <div class="bubble-img">
-            <img src="img-2/screenshots/map.png" alt="map of the game" title="game map" />
+            <img src="img-2/screenshots/map.png" alt="map of the game" title=" " />
           </div>
           <div class="about-bubble two">
             <h2>BATTLE!</h2>
@@ -112,12 +107,12 @@
             </strong></p>
           </div>
           <div class="bubble-img">
-            <img src="img-2/screenshots/BossFight.gif" alt="map of the game" title="game map" />
+            <img src="img-2/screenshots/BossFight.gif" alt="map of the game" title=" " />
           </div>
         </div>
         <div class="small-12 large-3 columns"><!--COLUMN FOUR vv -->  
           <div class="bubble-img">
-            <img src="img-2/screenshots/complete-level.png" alt="map of the game" title="game map" />
+            <img src="img-2/screenshots/complete-level.png" alt="map of the game" title=" " />
           </div>  
           <div class="about-bubble four">
             <h2>PROGRESS!</h2>
@@ -128,9 +123,143 @@
         </div>
     </section>
   </section>
-  <section class="slideshow"></section>
-  <section class="playnow"></section>
-  <section class="team"></section>
+  <section class="screenshots">
+    <div class="row main-content">
+      <h2>Screenshots</h2>
+      <div class="slider">
+      <div class="large-4 columns">
+        <p><img class="float-center treasure-chest" src="img-2/chest.png" alt="map of the game" title=" " /></p>
+        <h3>Get Treasure!</h3>
+        <p>Use your brilliant matching skills to earn stars in every level, which then rebuild magnificent
+            Constellations!</p>
+      </div>
+      <div class="large-4 columns">
+        <section class="media" id="media">
+          <div id="slideshow" class="slideshow float-center">
+            <img id="slideshowimage" />
+          </div>
+        </section>
+      </div>
+      <div class="large-4 columns">
+          <p><img class="float-center crew" src="img-2/Crew.png" alt="map of the game" title=" " /></p>
+      </div>
+        
+
+      </div>
+      <p href='#media' class='slideshowcontrols prev-link'><strong>&lt;</strong></p>
+      <p href='#media' class='slideshowcontrols next-link'><strong>&gt;</strong></p>
+    </div>
+  </section>
+  <section class="playnow">
+      <div class="large-6 columns download">
+          <h2>Play Now!</h2>
+          <p>
+            <img class="download-on" src="img-2/appstore.png" alt="map of the game" title=" " />
+            <img class="download-on" src="img-2/googleplay.png" alt="map of the game" title=" " />
+          </p>
+          <p>
+            <img class="app-icon" src="img-2/App-icon.png" alt="map of the game" title=" " />
+          </p>
+      </div>
+      <div class="large-6 columns">
+          <p><img class="float-center" src="img-2/Team-eating.png" alt="map of the game" title=" " /></p>
+      </div>
+  </section>
+  <section class="team">
+    <h2>The Bundle of Sticks Team</h2>
+    <div class="team-bios float-center">
+        <div class="large-4 columns">
+            <div class="team-member">
+              <p class="team-member">
+                <img class="paul" src="img-2/Team-faces/Paul.png" alt="Paul" title="Paul" />
+              </p>
+              <h3>Paul</h3>
+              <p class="read-more">
+                <img class="read-more-arrow" src="img-2/Tooltip-team-arrow-1.png" alt="read bio" title="Read Paul's Bio"   />
+              </p>
+            </div>
+            <div class="team-member">
+              <p class="team-member">
+                <img class="lucas" src="img-2/Team-faces/Lucas.png" alt="Lucas" title="Lucas" />
+              </p>
+              <h3>Lucas</h3>
+              <p class="read-more">
+                  <img class="read-more-arrow" src="img-2/Tooltip-team-arrow-1.png" alt="read bio" title="Read Lucas's Bio"   />
+              </p>
+              
+            </div>
+            <div class="team-member">
+              <p class="team-member">
+                <img class="daniel" src="img-2/Team-faces/Daniel.png" alt="Daniel" title="Daniel" />
+              </p>
+              <h3>Daniel</h3>
+              <p class="read-more">
+                  <img class="read-more-arrow" src="img-2/Tooltip-team-arrow-1.png" alt="read bio" title="Read Daniel's Bio"   />
+              </p>
+            </div>
+        </div>
+        <div class="large-4 columns">
+            <div class="team-member">
+              <p class="team-member">
+                <img class="jamie" src="img-2/Team-faces/Jamie.png" alt="Jamie" title="Jamie" />
+              </p>
+              <h3>Jamie</h3>
+              <p class="read-more">
+                  <img class="read-more-arrow" src="img-2/Tooltip-team-arrow-1.png" alt="read bio" title="Read Jamie's Bio"   />
+                </p>
+            </div>
+            <div class="team-member">
+              <p class="team-member">
+                <img class="waffles" src="img-2/Team-faces/Waffles.png" alt="Waffles" title="Waffles" />
+              </p>
+              <h3>Waffles</h3>
+              <p class="read-more">
+                  <img class="read-more-arrow" src="img-2/Tooltip-team-arrow-1.png" alt="read bio" title="Read Waffles's Bio"   />
+                </p>
+            </div>
+            <div class="team-member">
+              <p class="team-member">
+                <img class="oded" src="img-2/Team-faces/Oded.png" alt="Oded" title="Oded" />
+              </p>
+              <h3>Oded</h3>
+              <p class="read-more">
+                  <img class="read-more-arrow" src="img-2/Tooltip-team-arrow-1.png" alt="read bio" title="Read Oded's Bio"   />
+                </p>
+            </div>
+      
+        </div>
+        <div class="large-4 columns">
+            <div class="team-member">
+              <p class="team-member">
+                <img class="gil" src="img-2/Team-faces/Gil.png" alt="Gil" title="Gil" />
+              </p>
+              <h3>Gil</h3>
+              <p class="read-more">
+                  <img class="read-more-arrow" src="img-2/Tooltip-team-arrow-1.png" alt="read bio" title="Read Gil's Bio" />
+                </p>
+            </div>
+            <div class="team-member">
+              <p class="team-member">
+                <img class="ian" src="img-2/Team-faces/Ian.png" alt="Ian" title="Ian" />
+              </p>
+              <h3>Ian</h3>
+              <p class="read-more">
+                  <img class="read-more-arrow" src="img-2/Tooltip-team-arrow-1.png" alt="read bio" title="Read Ian's Bio"   />
+                </p>
+            </div>
+            <div class="team-member">
+              <p class="team-member">
+                <img class="gaby" src="img-2/Team-faces/Gaby.png" alt="Gaby" title="Gaby" />
+              </p>
+              <h3>Gaby</h3>
+              <p class="read-more">
+                  <img class="read-more-arrow" src="img-2/Tooltip-team-arrow-1.png" alt="read bio" title="Read Gaby's Bio"   />
+                </p>
+            </div>
+        </div>
+    </div>
+    
+  </section>
   <section class="contact">
     <div class="row main-content">
       <div class="small-12 large-6 columns">
@@ -182,7 +311,12 @@
           <img class="ig float-right" src="img-2/instagram-icon.png" />
           <img class="tw float-right" src="img-2/twitter-icon.png" /></p>
         </div>
+        <hr>
+        <div class="groups">
+          <img class="group-logo1" src="img-2/Bundle-of-sticks-logo.png" />
+          <img class="group-logo2" src="img-2/I-am-antisocial-logo-.png" />
         </div>
+    </div>
     </div>
   </section>
   <section class="copy">
@@ -196,6 +330,50 @@
     </div>
   </section>
 
+
+  <script>
+    var images = new Array;
+    images[0] = "img-2/screenshots/portscreen.png";
+    images[1] = "img-2/screenshots/FishingLevel.png";
+    images[2] = "img-2/screenshots/Map2.png";
+    images[3] = "img-2/screenshots/ProspectingLevel.png";
+    images[4] = "img-2/screenshots/levelComplete.png";
+    
+    var presentimage = 0;
+    
+    document.getElementsByClassName('next-link')[0].addEventListener('click', function() {
+        alterimage(1);
+    });
+    document.getElementsByClassName('prev-link')[0].addEventListener('click', function() {
+        alterimage(-1);
+    });
+    document.getElementsByClassName('slideshow')[0].addEventListener('click', function() {
+        alterimage(1);
+    });
+  
+    var alterimage = function alterimage(alter){
+        presentimage += alter;
+        if(presentimage >= images.length){
+          presentimage = 0;
+        }
+        else if(presentimage < 0){
+          presentimage = images.length - 1;
+        }
+        document.getElementById('slideshowimage').setAttribute('src', images[presentimage]);
+        document.getElementById('slideshowimage').setAttribute('class', 'float-center');
+    }
+    alterimage(0);
+  
+    showSlides();
+  
+    function showSlides() {
+        alterimage(presentimage);
+        presentimage++;
+        if (presentimage >= images.length) {presentimage = 0} 
+        document.getElementById('slideshowimage').setAttribute('style', "display:block"); 
+        setTimeout(showSlides, 4000); // Change image every 2 seconds
+    }
+    </script>
 </body>
 </html>
 

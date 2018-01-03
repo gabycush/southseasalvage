@@ -71,8 +71,6 @@ body {font-family: Verdana,sans-serif;}
     height:100%;
     overflow:hidden;
     padding:1rem;
-    border-radius:10%;
-    margin-top:-10rem;
 }
 
 .slideshowimage{
@@ -90,11 +88,13 @@ p.slideshowcontrols{
  p.prev-link{
   position:relative;
   left:17rem;
-  top:20rem;
+  top:12rem;
+  visibility: hidden;
 }
 
 p.next-link{
   position: relative;
   left:50rem;
-  top:14.2rem;
+  top:7.2rem;
+  visibility: hidden;
 } 
