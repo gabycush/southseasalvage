@@ -94,7 +94,7 @@ section.playnow{
 }
 section.team{
   background-color:#f9f7d4;
-  padding:5% 0;
+  padding:2% 0 7%;
 }
 img.collectable{
   padding-left:1.8em;
@@ -132,7 +132,7 @@ section.contact .about-img-gameplay{
   padding-top: 7%;
 }
 section.contact div.main-content a{
-  color:#EAC14D;
+  color:#fde703;
 }
 section.contact div.main-content a:hover{
   color:#f9f7d4;
@@ -141,7 +141,7 @@ section.contact button {
   color:white;
   width:10rem;
   height:3rem;
-  border: 2px solid #EAC14D;
+  border: 2px solid #fde703;
   background-color:#57564a;
   font-family: 'PT Sans', sans-serif;
   font-weight:bold;
@@ -149,8 +149,8 @@ section.contact button {
   font-size:1.3em;
 }
 section.contact button:hover {
-  border: 2px solid #EAC14D;
-  background-color:#EAC14D;
+  border: 2px solid #fde703;
+  background-color:#fde703;
   color:#57564a;
 }
 .slider h3{
@@ -196,7 +196,7 @@ img.download-on{
 div.team-bios{
   text-align:center;
   width:75%;
-  height:600px;
+  height:700px;
   display:block;
 }
 div.team-member{
@@ -205,11 +205,26 @@ div.team-member{
 p.team-member{
   height:110px;
 }
-p.read-more{
-	height:30px;
-	-webkit-transition: width 2s, height 4s;
-  transition: width 2s, height 4s;
+div.team-member p.pos{
+  color:#e6b742;
+  margin-top:-15px;
+}
+div.read-more{
+  height:30px;
+  margin-top:-15px;
+	-webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
 	overflow:hidden;
+}
+div.read-more p {
+  padding:1%;
+}
+div.read-more:hover {
+  height:180px;
+  color:white;
+  background-color:#4e4d41;
+  overflow:hidden;
+  z-index: 2;
 }
 div.groups{
   text-align:center;
@@ -230,6 +245,7 @@ hr{
 .screenshots h2, .team h2{
   color:#31b8eb;
 }
+
 
 /*SCREEN SPECIFIC STYLES*/
 
