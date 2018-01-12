@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 section.grass{
-  background: url("../img-2/palm-trees-water.png") 50% 90% no-repeat;
+  background: url("../img-2/palm-trees-water.png") 150% 90% no-repeat;
   background-size:100%;
   background-origin: content-box;
   display: flex;
@@ -39,7 +39,7 @@ section.grass{
 }
 
 section.water{
-  /* margin-top:-4rem; */
+  margin-top:-4rem;
   background:linear-gradient(#3bb3e4, #3bb3e4);
   background-size:cover;
   background-origin: content-box;
@@ -292,43 +292,13 @@ hr{
   }
   .phone {
     height:auto;
-    width:100%;
+    width:30%;
   }
-  /* .navbar {
+  .navbar {
     width: 100%;
     margin-left: auto ;
     margin-right: auto ;
     padding: 7rem 0 3rem;
-  }
-  .navbar ul {
-    list-style-type: none; /*to remove bullets
-    text-align: center;
-  }
-  .navbar > ul > li.plank{
-    display:inline;
-    line-height:60px;
-    font-size: 1.5rem;
-    font-family: 'Fresca', sans-serif;
-    font-weight:800;
-    letter-spacing: 3px;
-  }
-  a.plank {
-    text-decoration: none;
-    color:#fde703;
-    text-align:center;
-    padding: .5rem 4rem;
-    background: url("../img-2/plank-2.png") no-repeat bottom center;
-    background-size:14rem;
-    width:5rem;
-  } */
-
-  .navbar.one {
-    float:left;
-    padding-top:40%;
-  }
-  .navbar.two {
-    float:right;
-    padding-top:37.3%;
   }
   .navbar ul {
     list-style-type: none; /*to remove bullets*/
@@ -349,7 +319,7 @@ hr{
     padding: .5rem 4rem;
     background: url("../img-2/plank-2.png") no-repeat bottom center;
     background-size:14rem;
-    /* width:8rem; */
+    width:5rem;
   }
   .logo{
     padding-top:9%;
