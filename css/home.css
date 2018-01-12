@@ -101,8 +101,14 @@ img.collectable{
   display:inline-block;
 }
 
-div.explorelogo{
-  width:70%;
+img.explorelogo{
+  width:45%;
+}
+div.explore{
+  padding: 3% 0;
+}
+h4.explore{
+  padding-bottom:3%;
 }
 
 section.seainfo, section.seainfo > div{
@@ -196,7 +202,7 @@ img.download-on{
 div.team-bios{
   text-align:center;
   width:75%;
-  height:700px;
+  height:720px;
   display:block;
 }
 div.team-member{
@@ -217,11 +223,11 @@ div.read-more{
 	overflow:hidden;
 }
 div.read-more p {
-  padding:1%;
+  padding:1% 3% 3%;
   text-align:left;
 }
 div.read-more:hover {
-  height:180px;
+  height:185px;
   color:white;
   background-color:#4e4d41;
   overflow:hidden;
@@ -268,8 +274,9 @@ hr{
     background: url("../img-2/bubble-1.png") no-repeat;
     width: 300px;
     height:300px;
+    font-size:14px;
     text-align:center;
-    padding:2.5rem 4.5rem 3rem 1.5rem;
+    padding:2.5rem 4.5rem 3rem 2rem;
     clear:both;
     margin-left:1rem;
   }
