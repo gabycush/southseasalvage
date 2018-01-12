@@ -84,13 +84,13 @@
             </strong></p>
           </div>
           <div class="bubble-img">
-            <img src="img-2/screenshots/main-screen.png" alt="map of the game" title=" " />
+            <img src="img-2/screenshots/diving4.gif" alt="map of the game" title=" " />
           </div>
           
         </div>
         <div class="small-12 large-3 columns"><!--COLUMN TWO vv -->
           <div class="bubble-img">
-            <img src="img-2/screenshots/map.png" alt="map of the game" title=" " />
+            <img src="img-2/screenshots/maps-bubble.gif" alt="map of the game" title=" " />
           </div>
           <div class="about-bubble two">
             <h2>BATTLE!</h2>
@@ -113,7 +113,7 @@
         </div>
         <div class="small-12 large-3 columns"><!--COLUMN FOUR vv -->  
           <div class="bubble-img">
-            <img src="img-2/screenshots/complete-level.png" alt="map of the game" title=" " />
+            <img src="img-2/screenshots/GoalPanel-bubble.gif" alt="map of the game" title=" " />
           </div>  
           <div class="about-bubble four">
             <h2>PROGRESS!</h2>
@@ -361,12 +361,17 @@
 
   <script>
     var images = new Array;
-    images[0] = "img-2/screenshots/portscreen.png";
+    images[0] = "img-2/screenshots/PortBig.png";
     images[1] = "img-2/screenshots/FishingLevel.png";
-    images[2] = "img-2/screenshots/Map2.png";
-    images[3] = "img-2/screenshots/ProspectingLevel.png";
-    images[4] = "img-2/screenshots/levelComplete.png";
-    
+    images[2] = "img-2/screenshots/level-complete.png";
+    images[3] = "img-2/screenshots/ScavegingLevel.png";
+    images[4] = "img-2/screenshots/dragon.jpg";
+    images[5] = "img-2/screenshots/gameplay.jpg";
+    images[5] = "img-2/screenshots/turtle.jpg";
+    images[6] = "img-2/screenshots/new-collectables.jpg";
+    images[7] = "img-2/screenshots/dragon2.jpg";
+    images[8] = "img-2/screenshots/other collectables.jpg";
+  
     var presentimage = 0;
     
     document.getElementsByClassName('next-link')[0].addEventListener('click', function() {
@@ -381,7 +386,7 @@
   
     var alterimage = function alterimage(alter){
         presentimage += alter;
-        if(presentimage >= images.length){
+        if(presentimage >= 9){
           presentimage = 0;
         }
         else if(presentimage < 0){
