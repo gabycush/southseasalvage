@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 section.grass{
-  background: url("../img-2/palmtrees.png") 50% 90% no-repeat;
+  background: url("../img-2/palm-trees-water.png") 50% 90% no-repeat;
   background-size:100%;
   background-origin: content-box;
   display: flex;
@@ -39,8 +39,8 @@ section.grass{
 }
 
 section.water{
-  margin-top:-4rem;
-  background: url("../img-2/water-layer.png") 50% 50% no-repeat, linear-gradient(#3bc4f2, #3bc4f2);
+  /* margin-top:-4rem; */
+  background:linear-gradient(#3bb3e4, #3bb3e4);
   background-size:cover;
   background-origin: content-box;
 }
@@ -50,7 +50,7 @@ section.about {
   height:100%;
   padding:2rem 2rem 9rem 2rem;
   background:url("../img-2/treasure.png") repeat-x,
-  linear-gradient(#3bc4f2, #3B5398);
+  linear-gradient(#3bb3e4, #3B5398);
   background-position:bottom left, 50% 50% ;
   overflow:hidden;
   color: #f9f7d4;
@@ -218,6 +218,7 @@ div.read-more{
 }
 div.read-more p {
   padding:1%;
+  text-align:left;
 }
 div.read-more:hover {
   height:180px;
@@ -291,13 +292,43 @@ hr{
   }
   .phone {
     height:auto;
-    width:35%;
+    width:100%;
   }
-  .navbar {
+  /* .navbar {
     width: 100%;
     margin-left: auto ;
     margin-right: auto ;
     padding: 7rem 0 3rem;
+  }
+  .navbar ul {
+    list-style-type: none; /*to remove bullets
+    text-align: center;
+  }
+  .navbar > ul > li.plank{
+    display:inline;
+    line-height:60px;
+    font-size: 1.5rem;
+    font-family: 'Fresca', sans-serif;
+    font-weight:800;
+    letter-spacing: 3px;
+  }
+  a.plank {
+    text-decoration: none;
+    color:#fde703;
+    text-align:center;
+    padding: .5rem 4rem;
+    background: url("../img-2/plank-2.png") no-repeat bottom center;
+    background-size:14rem;
+    width:5rem;
+  } */
+
+  .navbar.one {
+    float:left;
+    padding-top:40%;
+  }
+  .navbar.two {
+    float:right;
+    padding-top:37.3%;
   }
   .navbar ul {
     list-style-type: none; /*to remove bullets*/
@@ -318,7 +349,7 @@ hr{
     padding: .5rem 4rem;
     background: url("../img-2/plank-2.png") no-repeat bottom center;
     background-size:14rem;
-    width:5rem;
+    /* width:8rem; */
   }
   .logo{
     padding-top:9%;
