@@ -11,7 +11,7 @@ body{
   background: url("../img-2/cloud-1.png") no-repeat,
   url("../img-2/cloud-2.png") no-repeat,
   url("../img-2/cloud-3.png") no-repeat,
-  linear-gradient(#3B5398, #Ffffff);
+  linear-gradient(#3bc4f2, #3B5398);
   background-position: 8% 18%, right top, 50% 30%;
   background-size:20%, 30%, 50%, 100%;
   background-origin: content-box;
@@ -19,7 +19,9 @@ body{
   height: auto !important;
   height: 100%;
   min-height: 100%;
+  width:auto;
   text-rendering: optimizeLegibility;
+  overflow:scroll;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 section.grass{
-  background: url("../img-2/palmtrees.png") 50% 90% no-repeat;
+  background: url("../img-2/palm-trees-water.png") 150% 90% no-repeat;
   background-size:100%;
   background-origin: content-box;
   display: flex;
@@ -38,10 +40,27 @@ section.grass{
 
 section.water{
   margin-top:-4rem;
-  background: url("../img-2/water-layer.png") 50% 50% no-repeat, linear-gradient(#3bc4f2, #3bc4f2);
+  background:linear-gradient(#3bb3e4, #3bb3e4);
   background-size:cover;
   background-origin: content-box;
 }
+
+section.about {
+  width:100%;
+  height:100%;
+  padding:2rem 2rem 9rem 2rem;
+  background:url("../img-2/treasure.png") repeat-x,
+  linear-gradient(#3bb3e4, #3B5398);
+  background-position:bottom left, 50% 50% ;
+  overflow:hidden;
+  color: #f9f7d4;
+}
+section.about div.small-12 h2 {
+font-size:2rem;
+color: #fde703;
+clear:both;
+}
+
 section.sand{
   background-color:#f9f7d4;
   padding:5% 0;
@@ -53,6 +72,193 @@ section.copy {
   width:100%;
   padding-top:1rem;
 }
+
+.bubble-img {
+  background: url("../img-2/bubble-1.png") no-repeat;
+  background-size: 100%;
+  border-radius: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  overflow:hidden;
+  width: 300px;
+  height:300px;
+}
+section.screenshots{
+  background-color:#f9f7d4;
+  padding:5% 0 0;
+}
+section.playnow{
+  margin-top:-4rem;
+  background: url("../img-2/water-layer.png") 50% 50% no-repeat, linear-gradient(#3bc4f2, #3bc4f2);
+  background-size:cover;
+  background-origin: content-box;
+}
+section.team{
+  background-color:#f9f7d4;
+  padding:2% 0 7%;
+}
+img.collectable{
+  padding-left:1.8em;
+  display:inline-block;
+}
+
+img.explorelogo{
+  width:45%;
+}
+div.explore{
+  padding: 3% 0;
+}
+h4.explore{
+  padding-bottom:3%;
+}
+
+section.seainfo, section.seainfo > div{
+  background:#f9f7d4;
+  height:100%;
+  display:block;
+  padding:1% 0;
+}
+section.seainfo  h1 {
+  color: #3bc4f2;
+  text-align:center;
+}
+
+section.contact {
+  background-color:#57564a;
+  width:100%;
+}
+section.contact div.main-content{
+  padding:2rem;
+  color:white;
+}
+section.contact div.row.main-content div.small-12 h2 {
+  font-size:2rem;
+  clear:both;
+}
+section.contact .about-img-gameplay{
+  padding-top: 7%;
+}
+section.contact div.main-content a{
+  color:#fde703;
+}
+section.contact div.main-content a:hover{
+  color:#f9f7d4;
+}
+section.contact button {
+  color:white;
+  width:10rem;
+  height:3rem;
+  border: 2px solid #fde703;
+  background-color:#57564a;
+  font-family: 'PT Sans', sans-serif;
+  font-weight:bold;
+  letter-spacing: 1.5px;
+  font-size:1.3em;
+}
+section.contact button:hover {
+  border: 2px solid #fde703;
+  background-color:#fde703;
+  color:#57564a;
+}
+.slider h3{
+  color:#fde703;
+}
+.slider{
+  color:white;
+  height:100%;
+  background-image: url("../img-2/Background-slideshow.png");
+  background-size: cover;
+  overflow:hidden;
+  padding:2% 0;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+img.treasure-chest{
+  padding-top:5%;
+  width:200px;
+}
+img.crew{
+  height:300px;
+  margin-top:30%;
+}
+
+section.playnow{
+  background-image: url("../img-2/Play-now-background.png");
+  background-size: cover;
+  height:475px;
+  display:block;
+  width:100%;
+}
+div.play{
+  width:76%;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+div.download{
+  padding: 3% 0 0 7%;
+  color:#fde703;
+}
+img.download-on{
+  width:25%;
+}
+.team h2{
+  padding-left:11%;
+}
+div.team-bios{
+  text-align:center;
+  width:75%;
+  height:720px;
+  display:block;
+}
+div.team-member{
+  padding:1%;
+}
+p.team-member{
+  height:110px;
+}
+div.team-member p.pos{
+  color:#e6b742;
+  margin-top:-15px;
+}
+div.read-more{
+  height:30px;
+  margin-top:-15px;
+	-webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+	overflow:hidden;
+}
+div.read-more p {
+  padding:1% 3% 3%;
+  text-align:left;
+}
+div.read-more:hover {
+  height:185px;
+  color:white;
+  background-color:#4e4d41;
+  overflow:hidden;
+  z-index: 2;
+}
+div.groups{
+  text-align:center;
+}
+img.group-logo1{
+  margin:0 4%;
+  height:75px;
+}
+img.group-logo2{
+  margin:0 4%;
+  height:55px;
+}
+hr{
+  color: #888;
+  background-color:#888;
+  height:1px;
+}
+.screenshots h2, .team h2{
+  color:#31b8eb;
+}
+
 
 /*SCREEN SPECIFIC STYLES*/
 
@@ -70,9 +276,36 @@ section.copy {
     font-size:2rem;
     text-align: center;
   }
+  .about-bubble {
+    background: url("../img-2/bubble-1.png") no-repeat;
+    width: 300px;
+    height:300px;
+    font-size:14px;
+    text-align:center;
+    padding:2.5rem 4.5rem 3rem 2rem;
+    clear:both;
+    margin-left:1rem;
+  }
+  .explore{
+    text-align:center;
+    width: 70%;
+    font-size:1.3rem;
+  }
+  .one{
+    margin-top:1rem;
+  }
+  .two{
+    margin-top:3rem;  
+  }
+  .three{
+    margin-top:.5rem;
+  }
+  .four{
+    margin-top:2rem;
+  }
   .phone {
     height:auto;
-    width:35%;
+    width:30%;
   }
   .navbar {
     width: 100%;
@@ -86,19 +319,17 @@ section.copy {
   }
   .navbar > ul > li.plank{
     display:inline;
-    line-height:60px;
+    line-height:90px;
     font-size: 1.5rem;
-    margin-bottom: 2rem;
-    width:5rem;
     font-family: 'Fresca', sans-serif;
     font-weight:800;
     letter-spacing: 3px;
   }
   a.plank {
     text-decoration: none;
-    color:#F2E55B;
+    color:#fde703;
     text-align:center;
-    padding: .5rem 6rem;
+    padding: 1.5rem 4.3rem .8rem;
     background: url("../img-2/plank-2.png") no-repeat bottom center;
     background-size:14rem;
     width:5rem;
@@ -144,34 +375,38 @@ section.copy {
     display:none;
   }
   div.row.menu {
-    width:120px;
+    width:100%;
     height:120px;
-    overflow: hidden;
-    background: url("../img-2/plank-2.png") no-repeat bottom center;
-    background-size:120%;
-    padding:.8rem 15rem;
+    background-color: rgba(56, 197, 243, .75);
+    position:fixed;
+    margin-top:0em;
   }
   .mobile-nav  {
     list-style-type: none; /*to remove bullets*/
-    text-align: center;
-    margin-top:2rem;
-    padding-right:25%;
-    width:50%;
+    padding:10px 0;
   }
-  .mobile-nav > li.plank{
+  li.plank{
     line-height:60px;
-    display:inline;
-    font-size: 1.5rem;
-    margin-bottom:3rem;
+    font-size: 2rem;
     font-family: 'Fresca', sans-serif;
     font-weight:800;
     font-size: 4rem;
     letter-spacing: 3px;
-  }
-  .mobile-nav a.plank {
-    text-decoration: none;
-    color:#F2E55B;
+    height:10rem;
+    width:10rem;
     text-align:center;
+    float:left;
+    margin-right: 7%;
+    margin-left:7%;
+  }
+  a.plank {
+    padding-top:2rem;
+    text-decoration: none;
+    color:#fde703;
+  }
+  a.plank > img {
+    height:6rem;
+    width:6rem;
   }
   .phone {
     display:none;
@@ -180,9 +415,18 @@ section.copy {
     font-size:1.5rem;
     text-align: center;
   }
+  .about-bubble {
+    background: url("../img-2/bubble-1.png") no-repeat;
+    width: 10rem;
+    height:10rem;
+    text-align:center;
+    /* padding:3.5rem 3rem 3rem 4rem; */
+    clear:both;
+  }
   .characters {
     height:auto;
     width:100%;
+    margin-top:20rem;
   }
   img.menu{
     width:120px;

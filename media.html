@@ -5,6 +5,7 @@
   <title>SOUTH SEA SALVAGE | PLAY NOW</title>
   <link rel="stylesheet" href="foundation/css/foundation.min.css">
   <link rel="stylesheet" href="css/mainstyles.css" type="text/css" />
+  <link rel="stylesheet" href="css/slider.css" type="text/css" />
   <link rel="stylesheet" href="css/mobile.css" type="text/css" />
   <link rel="stylesheet" href="css/desktop.css" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
@@ -12,18 +13,14 @@
 <body>
   <section class="header">
     <div class="row menu">
-      <div class="small-2 columns">
-        <img class="menu float-left" src="img-2/mobile-menu.png" />
-      </div>
-      <div class="small-8 columns menu-items">
+      <nav class="small-12 columns menu-items">
         <ul class="mobile-nav">
-          <li class="plank"><a class="plank" href="about.html">&nbsp;&nbsp;About&nbsp; </a></li>
-          <li class="plank"><a class="plank" href="team.html">&nbsp;&nbsp;Team&nbsp;&nbsp;</a></li>
-          <li class="plank"><a class="plank" href="media.html">&nbsp;&nbsp;Media&nbsp;</a></li>
-          <li class="plank"><a class="plank" href="contact.html">Contact</a></li>
+          <!-- <li class="plank"><a class="plank" href="index.html"><img src="img-2/home-mobile.png" alt="home"/></a></li> -->
+          <li class="plank"><a class="plank" href="team.html"><img src="img-2/team-mobile.png" alt="team"/></a></li>
+          <li class="plank"><a class="plank" href="media.html"><img src="img-2/media-mobile.png" alt="media"/></a></li>
+          <li class="plank"><a class="plank" href="contact.html"><img src="img-2/contact-mobile.png" alt="contact"/></a></li>
         </ul>
-      </div>
-      <div class="small-2 columns"><p>&nbsp;</p></div>
+      </nav>
     </div>
     <div class="row header">
       <div class="small-12 medium-10 medium-offset-2 large-offset-0 large-4 columns">
@@ -35,11 +32,11 @@
     </div>
   </section>
 
-  <section class="grass-water">
+  <section class="grass-water media">
     <div id="main">
       <div class="row column image">
         <ul class="navbar">
-          <li class="plank"><a class="plank" href="about.html">&nbsp;About&nbsp; </a></li>
+          <li class="plank"><a class="plank" href="index.html">&nbsp;Home&nbsp; </a></li>
           <li class="plank"><a class="plank" href="team.html">&nbsp;&nbsp;Team&nbsp;&nbsp;</a></li>
           <li class="plank"><a class="plank" href="media.html">&nbsp;Media&nbsp;</a></li>
           <li class="plank"><a class="plank" href="contact.html">Contact</a></li>
@@ -47,12 +44,17 @@
         <img class="banner-img" src="img-2/Facebook.png" alt="{relevant text to the image}" />
       </div>
       <div class="row column main-content ">
-        <p class="media">
-          <img src="img-2/media-page/ping-1.png" title="" alt="" />
-          <img src="img-2/media-page/mechanic-1.png" title="" alt="" />
-          <img src="img-2/media-page/first-mate1.png" title="" alt="" />
-        </p>
+        <p href='#media' class='slideshowcontrols prev-link'><strong>&lt;</strong></p>
+        <p href='#media' class='slideshowcontrols next-link'><strong>&gt;</strong></p>
+        <section class="media" id="media">
+          <div id="slideshow" class="slideshow float-center">
+            <img id="slideshowimage" />
+          </div>
+      </section>
 
+      <img class="ship" src="img-2/screenshots/Diving4.gif" alt="diving ship" />
+      <img class="boss" src="img-2/screenshots/BossFight.gif" alt="Boss Fight" />
+      
       </div>
   </section>
 
@@ -83,6 +85,51 @@
  </div>
  </section>
 
+ <script>
+  var images = new Array;
+  images[0] = "img-2/screenshots/portscreen.png";
+  images[1] = "img-2/media-page/first-mate1.png";
+  images[2] = "img-2/screenshots/FishingLevel.png";
+  images[3] = "img-2/media-page/ping-1.png";
+  images[4] = "img-2/screenshots/Map2.png";
+  images[5] = "img-2/screenshots/ProspectingLevel.png";
+  images[6] = "img-2/screenshots/levelComplete.png";
+  images[7] = "img-2/media-page/mechanic-1.png";
+  
+  var presentimage = 0;
+  
+  document.getElementsByClassName('next-link')[0].addEventListener('click', function() {
+      alterimage(1);
+  });
+  document.getElementsByClassName('prev-link')[0].addEventListener('click', function() {
+      alterimage(-1);
+  });
+  document.getElementsByClassName('slideshow')[0].addEventListener('click', function() {
+      alterimage(1);
+  });
 
+  var alterimage = function alterimage(alter){
+      presentimage += alter;
+      if(presentimage >= images.length){
+        presentimage = 0;
+      }
+      else if(presentimage < 0){
+        presentimage = images.length - 1;
+      }
+      document.getElementById('slideshowimage').setAttribute('src', images[presentimage]);
+      document.getElementById('slideshowimage').setAttribute('class', 'float-center');
+  }
+  alterimage(0);
+
+  showSlides();
+
+  function showSlides() {
+      alterimage(presentimage);
+      presentimage++;
+      if (presentimage >= images.length) {presentimage = 0} 
+      document.getElementById('slideshowimage').setAttribute('style', "display:block"); 
+      setTimeout(showSlides, 4000); // Change image every 2 seconds
+  }
+  </script>
 </body>
 </html>

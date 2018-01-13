@@ -49,4 +49,12 @@ section.copy {
   height:2%;
 }
 
+#media{
+  margin-top:-3rem;
+}
+
+.boss{
+  float:right;
+}
+
 /*SCREEN SPECIFIC STYLES in their own files*/
