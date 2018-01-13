@@ -152,19 +152,21 @@
     </div>
   </section>
   <section id="playnow" class="playnow">
-      <div class="large-6 columns download">
-          <h2>Play Now!</h2>
-          <p>
-            <img class="download-on" src="img-2/appstore.png" alt="map of the game" title=" " />
-            <img class="download-on" src="img-2/googleplay.png" alt="map of the game" title=" " />
-          </p>
-          <p>
-            <img class="app-icon" src="img-2/App-icon.png" alt="map of the game" title=" " />
-          </p>
-      </div>
-      <div class="large-6 columns">
-          <p><img class="float-center" src="img-2/Team-eating.png" alt="map of the game" title=" " /></p>
-      </div>
+    <div class="play">
+          <div class="large-6 columns download">
+              <h2>Play Now!</h2>
+              <p>
+                <img class="download-on" src="img-2/appstore.png" alt="map of the game" title=" " />
+                <img class="download-on" src="img-2/googleplay.png" alt="map of the game" title=" " />
+              </p>
+              <p>
+                <img class="app-icon" src="img-2/Hi-res-icon.png" alt="map of the game" title=" " />
+              </p>
+          </div>
+          <div class="large-6 columns">
+              <p><img class="float-center" src="img-2/Team-eating.png" alt="map of the game" title=" " /></p>
+          </div>
+    </div>
   </section>
   <section id="team" class="team">
     <h2>The Bundle of Sticks Team</h2>
@@ -361,16 +363,16 @@
 
   <script>
     var images = new Array;
-    images[0] = "img-2/screenshots/PortBig.png";
-    images[1] = "img-2/screenshots/FishingLevel.png";
+    images[0] = "img-2/screenshots/FishingLevel.png";
+    images[1] = "img-2/screenshots/PortBig.png";
     images[2] = "img-2/screenshots/level-complete.png";
     images[3] = "img-2/screenshots/ScavegingLevel.png";
     images[4] = "img-2/screenshots/dragon.jpg";
     images[5] = "img-2/screenshots/gameplay.jpg";
-    images[5] = "img-2/screenshots/turtle.jpg";
-    images[6] = "img-2/screenshots/new-collectables.jpg";
-    images[7] = "img-2/screenshots/dragon2.jpg";
-    images[8] = "img-2/screenshots/other collectables.jpg";
+    images[6] = "img-2/screenshots/turtle.jpg";
+    images[7] = "img-2/screenshots/new-collectables.jpg";
+    images[8] = "img-2/screenshots/dragon2.jpg";
+    images[9] = "img-2/screenshots/other-collectables.jpg";
   
     var presentimage = 0;
     
@@ -386,7 +388,7 @@
   
     var alterimage = function alterimage(alter){
         presentimage += alter;
-        if(presentimage >= 9){
+        if(presentimage >= 10){
           presentimage = 0;
         }
         else if(presentimage < 0){
@@ -400,9 +402,8 @@
     showSlides();
   
     function showSlides() {
-        alterimage(presentimage);
-        presentimage++;
-        if (presentimage >= images.length) {presentimage = 0} 
+        alterimage(1);
+        if (presentimage >= 10) {presentimage = 0} 
         document.getElementById('slideshowimage').setAttribute('style', "display:block"); 
         setTimeout(showSlides, 4000); // Change image every 2 seconds
     }

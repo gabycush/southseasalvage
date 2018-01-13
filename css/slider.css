@@ -86,15 +86,15 @@ p.slideshowcontrols{
 }
 
  p.prev-link{
-  position:relative;
-  left:17rem;
-  top:12rem;
-  visibility: hidden;
+  position: relative;
+  left:23.5rem;
+  top:-25rem;
+  z-index: 3;
 }
 
 p.next-link{
   position: relative;
-  left:50rem;
-  top:7.2rem;
-  visibility: hidden;
+  left:49rem;
+  top:-30.8rem;
+  z-index:3;
 } 
