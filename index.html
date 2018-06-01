@@ -5,10 +5,14 @@
   <title>SOUTH SEA SALVAGE | PLAY NOW</title>
   <link rel="stylesheet" href="foundation/css/foundation.min.css">
   <link rel="stylesheet" href="css/home.css" type="text/css" />
+  <link rel="stylesheet" href="css/desktop.css" type="text/css" />
+  <link rel="stylesheet" href="css/mobile.css" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
   <link rel="stylesheet" href="css/slider.css" type="text/css" />
+  <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
 </head>
 <body>
+  <div class="container-fluid">
   <section class="header">
     <div class="row header">
       <div class="small-12 medium-4 large-4 columns">
@@ -76,52 +80,62 @@
                 conditions on levels and chapters as you progress the story of the Jade Emperor and your family.
             </h4>
         </div>
-        <div class="small-12 large-3 columns"><!--COLUMN ONE vv -->
-          <div class="about-bubble one">
-            <h2>SALVAGE!</h2>
-            <p><strong>
-              Trace your subs path and collect as many matches of loot as you can before you run out of fuel
+
+        <div id="mobile-bubbles">
+          <div class="bubble-img small-12 columns">
+            <img id="bubble_IMG" class=" float-center" src="img-2/screenshots/BossFight-bubble.gif" alt="" title=" " />
+          </div>
+          <div id="bubble_TXT" class="small-12 columns">hi</div>
+        </div>
+        
+        <div id="desktop-bubbles">
+          <div class="small-6 large-3 columns"><!--COLUMN ONE vv -->
+            <div class="about-bubble one">
+              <h2>SALVAGE!</h2>
+              <p><strong>
+                Trace your subs path and collect as many matches of loot as you can before you run out of fuel
+              </strong></p>
+            </div>
+            <div class="bubble-img">
+                <img src="img-2/screenshots/Diving4-bubble.gif" alt="map of the game" title=" " />
+            </div>
+            
+          </div>
+          <div class="small-6 large-3 columns"><!--COLUMN TWO vv -->
+            <div class="bubble-img">
+              <img src="img-2/screenshots/maps-bubble.gif" alt="map of the game" title=" " />
+            </div>
+            <div class="about-bubble two">
+              <h2>BATTLE!</h2>
+              <p><strong>
+                Fight Pirates and level Bosses in exciting torpedo submarine combat!
+              </strong></p>
+            </div>
+            
+          </div>
+          <div class="small-6 large-3 columns"><!--COLUMN THREE vv -->
+            <div class="about-bubble three">
+              <h2>MANAGE!</h2>
+              <p><strong>
+                Manage your crew's moral to keep it high on your journey and upgrade your ship as it degrades over time!
+              </strong></p>
+            </div>
+            <div class="bubble-img">
+              <img src="img-2/screenshots/BossFight-bubble.gif" alt="map of the game" title=" " />
+            </div>
+          </div>
+          <div class="small-6 large-3 columns"><!--COLUMN FOUR vv -->  
+            <div class="bubble-img">
+              <img src="img-2/screenshots/GoalPanel-bubble.gif" alt="map of the game" title=" " />
+            </div>  
+            <div class="about-bubble four">
+              <h2>PROGRESS!</h2>
+              <p><strong>
+              Travel the South China Seas on an epic quest and progress the deep story of your origin and what the future holds!
             </strong></p>
+            </div>
           </div>
-          <div class="bubble-img">
-              <img src="img-2/screenshots/Diving4-bubble.gif" alt="map of the game" title=" " />
-          </div>
-          
-        </div>
-        <div class="small-12 large-3 columns"><!--COLUMN TWO vv -->
-          <div class="bubble-img">
-            <img src="img-2/screenshots/maps-bubble.gif" alt="map of the game" title=" " />
-          </div>
-          <div class="about-bubble two">
-            <h2>BATTLE!</h2>
-            <p><strong>
-              Fight Pirates and level Bosses in exciting torpedo submarine combat!
-            </strong></p>
-          </div>
-          
-        </div>
-        <div class="small-12 large-3 columns"><!--COLUMN THREE vv -->
-          <div class="about-bubble three">
-            <h2>MANAGE!</h2>
-            <p><strong>
-              Manage your crew's moral to keep it high on your journey and upgrade your ship as it degrades over time!
-            </strong></p>
-          </div>
-          <div class="bubble-img">
-            <img src="img-2/screenshots/BossFight-bubble.gif" alt="map of the game" title=" " />
-          </div>
-        </div>
-        <div class="small-12 large-3 columns"><!--COLUMN FOUR vv -->  
-          <div class="bubble-img">
-            <img src="img-2/screenshots/GoalPanel-bubble.gif" alt="map of the game" title=" " />
-          </div>  
-          <div class="about-bubble four">
-            <h2>PROGRESS!</h2>
-            <p><strong>
-            Travel the South China Seas on an epic quest and progress the deep story of your origin and what the future holds!
-          </strong></p>
-          </div>
-        </div>
+      </div>
     </section>
   </section>
   <section id="media" class="screenshots">
@@ -147,13 +161,13 @@
         
 
       </div>
-      <p href='#media' class='slideshowcontrols prev-link'><strong>&lt;</strong></p>
-      <p href='#media' class='slideshowcontrols next-link'><strong>&gt;</strong></p>
+      <!-- <p href='#media' class='slideshowcontrols prev-link'><strong>&lt;</strong></p>
+      <p href='#media' class='slideshowcontrols next-link'><strong>&gt;</strong></p> -->
     </div>
   </section>
   <section id="playnow" class="playnow">
     <div class="play">
-          <div class="large-6 columns download">
+          <div class="Large-6 columns download">
               <h2>Play Now!</h2>
               <p>
                 <img class="download-on" src="img-2/appstore.png" alt="map of the game" title=" " />
@@ -163,18 +177,23 @@
                 <img class="app-icon" src="img-2/Hi-res-icon.png" alt="map of the game" title=" " />
               </p>
           </div>
-          <div class="large-6 columns">
-              <p><img class="float-center" src="img-2/Team-eating.png" alt="map of the game" title=" " /></p>
+          <div class="Large-6 columns">
+              <p><img class="team-eating float-center" src="img-2/Team-eating.png" alt="map of the game" title=" " /></p>
           </div>
     </div>
   </section>
   <section id="team" class="team">
     <h2>The Bundle of Sticks Team</h2>
+
+    <div id="mobile-team">
+      <div id="mobile-team-member" class="team-member"></div>
+    </div>
+
     <div class="team-bios float-center">
-        <div class="large-4 columns">
+        <div class="small-6 large-4 columns">
             <div class="team-member">
               <p class="team-member">
-                <img class="paul" src="img-2/Team-faces/Paul.png" alt="Paul" title="Paul" />
+                <img class="teamface" src="img-2/Team-faces/Paul.png" alt="Paul" title="Paul" />
               </p>
               <h3>Paul</h3>
               <p class="pos">Creative Director / Producer</p>
@@ -186,7 +205,7 @@
             </div>
             <div class="team-member">
               <p class="team-member">
-                <img class="lucas" src="img-2/Team-faces/Lucas.png" alt="Lucas" title="Lucas" />
+                <img class="teamface" src="img-2/Team-faces/Lucas.png" alt="Lucas" title="Lucas" />
               </p>
               <h3>Lucas</h3>
               <p class="pos">Writer</p>
@@ -199,7 +218,7 @@
             </div>
             <div class="team-member">
               <p class="team-member">
-                <img class="daniel" src="img-2/Team-faces/Daniel.png" alt="Daniel" title="Daniel" />
+                <img class="teamface" src="img-2/Team-faces/Daniel.png" alt="Daniel" title="Daniel" />
               </p>
               <h3>Daniel</h3>
               <p class="pos">3D Modeler</p>
@@ -210,10 +229,10 @@
                 </div>
             </div>
         </div>
-        <div class="large-4 columns">
+        <div class="small-6 large-4 columns">
             <div class="team-member">
               <p class="team-member">
-                <img class="jamie" src="img-2/Team-faces/Jamie.png" alt="Jamie" title="Jamie" />
+                <img class="teamface" src="img-2/Team-faces/Jamie.png" alt="Jamie" title="Jamie" />
               </p>
               <h3>Jamie</h3>
               <p class="pos">Project Lead</p>
@@ -225,7 +244,7 @@
             </div>
             <div class="team-member">
               <p class="team-member">
-                <img class="waffles" src="img-2/Team-faces/Waffles.png" alt="Waffles" title="Waffles" />
+                <img class="teamface" src="img-2/Team-faces/Waffles.png" alt="Waffles" title="Waffles" />
               </p>
               <h3>Waffles</h3>
               <p class="pos">Sound Design</p>
@@ -237,7 +256,7 @@
             </div>
             <div class="team-member">
               <p class="team-member">
-                <img class="oded" src="img-2/Team-faces/Oded.png" alt="Oded" title="Oded" />
+                <img class="teamface" src="img-2/Team-faces/Oded.png" alt="Oded" title="Oded" />
               </p>
               <h3>Oded</h3>
               <p class="pos">Progammer</p>
@@ -249,10 +268,10 @@
             </div>
       
         </div>
-        <div class="large-4 columns">
+        <div class="small-6 large-4 columns">
             <div class="team-member">
               <p class="team-member">
-                <img class="gil" src="img-2/Team-faces/Gil.png" alt="Gil" title="Gil" />
+                <img class="teamface" src="img-2/Team-faces/Gil.png" alt="Gil" title="Gil" />
               </p>
               <h3>Gil</h3>
               <p class="pos">Artist</p>
@@ -264,7 +283,7 @@
             </div>
             <div class="team-member">
               <p class="team-member">
-                <img class="ian" src="img-2/Team-faces/Ian.png" alt="Ian" title="Ian" />
+                <img class="teamface" src="img-2/Team-faces/Ian.png" alt="Ian" title="Ian" />
               </p>
               <h3>Ian</h3>
               <p class="pos">Social Media Manager</p>
@@ -276,7 +295,7 @@
             </div>
             <div class="team-member">
               <p class="team-member">
-                <img class="gaby" src="img-2/Team-faces/Gaby.png" alt="Gaby" title="Gaby" />
+                <img class="teamface" src="img-2/Team-faces/Gaby.png" alt="Gaby" title="Gaby" />
               </p>
               <h3>Gaby</h3>
               <p class="pos">Web Developer</p>
@@ -288,7 +307,7 @@
             </div>
         </div>
     </div>
-    
+  
   </section>
   <section id="contact" class="contact">
     <div class="row main-content">
@@ -359,7 +378,7 @@
       </p>
     </div>
   </section>
-
+</div>
 
   <script>
     var images = new Array;
@@ -373,15 +392,60 @@
     images[7] = "img-2/screenshots/new-collectables.jpg";
     images[8] = "img-2/screenshots/dragon2.jpg";
     images[9] = "img-2/screenshots/other-collectables.jpg";
+
+    var mobileImages = new Array;
+    mobileImages[0] = "img-2/screenshots/FishingLevel.png";
+    mobileImages[1] = "img-2/screenshots/PortBig.png";
+    mobileImages[2] = "img-2/screenshots/level-complete.png";
+    mobileImages[3] = "img-2/screenshots/ScavegingLevel.png";
+    mobileImages[4] = "img-2/screenshots/dragon.jpg";
+    mobileImages[5] = "img-2/screenshots/gameplay.jpg";
+    mobileImages[6] = "img-2/screenshots/turtle.jpg";
+    mobileImages[7] = "img-2/screenshots/new-collectables.jpg";
+    mobileImages[8] = "img-2/screenshots/dragon2.jpg";
+    mobileImages[9] = "img-2/screenshots/other-collectables.jpg";
+
+    var bubbleImages = new Array;
+    bubbleImages[0] = "img-2/screenshots/Diving4-bubble.gif";
+    bubbleImages[1] = "img-2/screenshots/maps-bubble.gif";
+    bubbleImages[2] = "img-2/screenshots/BossFight-bubble.gif";
+    bubbleImages[3] = "img-2/screenshots/GoalPanel-bubble.gif";
+
+    var bubbleText = new Array;
+    bubbleText[0] = `<div class="about-bubble one">
+                    <h2>SALVAGE!</h2>
+                    <p><strong>
+                      Trace your subs path and collect as many matches of loot as you can before you run out of fuel
+                    </strong></p>
+                  </div>`;
+    bubbleText[1] = `<div class="about-bubble two">
+                    <h2>BATTLE!</h2>
+                    <p><strong>
+                      Fight Pirates and level Bosses in exciting torpedo submarine combat!
+                    </strong></p>
+                  </div>`;
+    bubbleText[2] = `<div class="about-bubble three">
+                    <h2>MANAGE!</h2>
+                    <p><strong>
+                      Manage your crew's moral to keep it high on your journey and upgrade your ship as it degrades over time!
+                    </strong></p>
+                  </div>`;
+    bubbleText[3] = `<div class="about-bubble four">
+                    <h2>PROGRESS!</h2>
+                    <p><strong>
+                    Travel the South China Seas on an epic quest and progress the deep story of your origin and what the future holds!
+                  </strong></p>
+                  </div>`;
   
     var presentimage = 0;
+    var presentbubble = 0;
     
-    document.getElementsByClassName('next-link')[0].addEventListener('click', function() {
-        alterimage(1);
-    });
-    document.getElementsByClassName('prev-link')[0].addEventListener('click', function() {
-        alterimage(-1);
-    });
+    // document.getElementsByClassName('next-link')[0].addEventListener('click', function() {
+    //     alterimage(1);
+    // });
+    // document.getElementsByClassName('prev-link')[0].addEventListener('click', function() {
+    //     alterimage(-1);
+    // });
     document.getElementsByClassName('slideshow')[0].addEventListener('click', function() {
         alterimage(1);
     });
@@ -396,17 +460,142 @@
         }
         document.getElementById('slideshowimage').setAttribute('src', images[presentimage]);
         document.getElementById('slideshowimage').setAttribute('class', 'float-center');
+        // document.getElementById('mobile-slideshowimage').setAttribute('src', mobileImages[presentimage]);
+        // document.getElementById('mobile-slideshowimage').setAttribute('class', 'float-center');
+    }
+    var alterbubbles = function alterbubbles(alter){
+        presentbubble += alter;
+        if(presentbubble >= 4){
+          presentbubble = 0;
+        }
+        else if(presentbubble < 0){
+          presentbubble = images.length - 1;
+        }
+        document.getElementById('bubble_IMG').setAttribute('src', bubbleImages[presentbubble]);
+        document.getElementById('bubble_TXT').innerHTML = bubbleText[presentbubble];
+        
     }
     alterimage(0);
+    alterbubbles(0);
   
     showSlides();
   
     function showSlides() {
         alterimage(1);
+        alterbubbles(1);
         if (presentimage >= 10) {presentimage = 0} 
+        if (presentbubble >= 10) {presentbubble = 0} 
         document.getElementById('slideshowimage').setAttribute('style', "display:block"); 
         setTimeout(showSlides, 2500); // Change image every 2 seconds
     }
+
+    var team = new Array;
+    team[0] = `<p class="team-member">
+                <img class="gaby" src="img-2/Team-faces/Gaby.png" alt="Gaby" title="Gaby" />
+              </p>
+              <h3>Gaby</h3>
+              <p class="pos">Web Developer</p>
+              <div class="read-more">
+                  <p>Gaby Justice is a Web Designer/Developer currently working toward her Bachelors degree in Computer Science. She primarily works on developing and maintaining all websites for BOSS.
+                    </p>
+                </div>`;
+    team[1] = `<p class="team-member">
+          <img class="paul" src="img-2/Team-faces/Paul.png" alt="Paul" title="Paul" />
+        </p>
+        <h3>Paul</h3>
+        <p class="pos">Creative Director / Producer</p>
+        <div class="read-more">
+          <p>Paul Baker is an Game Industry veteran with 26 years experience in various roles, mostly design. Paul has worked on 26 published games since 1991.
+            </p>
+        </div>`;
+    team[2] = `<p class="team-member">
+                <img class="lucas" src="img-2/Team-faces/Lucas.png" alt="Lucas" title="Lucas" />
+              </p>
+              <h3>Lucas</h3>
+              <p class="pos">Writer</p>
+              <div class="read-more">
+                  <p>Lucas got involved with BOSS feeling the need to develop out the world, he has since used his passion as a driving force to develop objectives and written insight to the galaxy.
+                    </p>
+              </div>`;
+    team[3] = `<p class="team-member">
+                <img class="daniel" src="img-2/Team-faces/Daniel.png" alt="Daniel" title="Daniel" />
+              </p>
+              <h3>Daniel</h3>
+              <p class="pos">3D Modeler</p>
+              <div class="read-more">
+                  <p>Daniel Chavez is a professional who has worked on games, movies, and tv shows as an artist. He moved back to Switzerland from the USA in 2015 and joined the freelance and indie scene.
+                    </p>
+                </div>`;
+    team[4] = `<p class="team-member">
+                <img class="jamie" src="img-2/Team-faces/Jamie.png" alt="Jamie" title="Jamie" />
+              </p>
+              <h3>Jamie</h3>
+              <p class="pos">Project Lead</p>
+              <div class="read-more">
+                  <p>Jamie took to programming young and has since learned many programming languages. In 2015, he started Bundle of Sticks Studios (BOSS), and has since worked with his team as lead developer on a number of projects.
+                    </p>
+                </div>`;
+    team[5] = `<p class="team-member">
+                <img class="waffles" src="img-2/Team-faces/Waffles.png" alt="Waffles" title="Waffles" />
+              </p>
+              <h3>Waffles</h3>
+              <p class="pos">Sound Design</p>
+              <div class="read-more">
+                  <p>Waffles From Nowhere is a full time breakfast food musician and part time Youtuber. He has been working with BOSS since June 2015 and currently handles both the Audio and Trailer Video production.
+                    </p>
+                </div>`;
+    team[6] = `<p class="team-member">
+                <img class="oded" src="img-2/Team-faces/Oded.png" alt="Oded" title="Oded" />
+              </p>
+              <h3>Oded</h3>
+              <p class="pos">Progammer</p>
+              <div class="read-more">
+                  <p>Oded has worked in the game industry for the past 4 years, shipped 2 games to the mobile market, and helped to develop many other projects. He helps develop gameplay and interface features at BOSS.
+                  </p>
+              </div>`;
+    team[7] = `<p class="team-member">
+                <img class="gil" src="img-2/Team-faces/Gil.png" alt="Gil" title="Gil" />
+              </p>
+              <h3>Gil</h3>
+              <p class="pos">Artist</p>
+              <div class="read-more">
+                  <p>Gil is an illustrator and concept designer at BOSS. He previously worked as a graphic and web designer in the advertising industry but left it to pursue the videogame and art industries.
+                    </p>
+                </div>`;
+    team[8] = `<p class="team-member">
+                <img class="ian" src="img-2/Team-faces/Ian.png" alt="Ian" title="Ian" />
+              </p>
+              <h3>Ian</h3>
+              <p class="pos">Social Media Manager</p>
+              <div class="read-more">
+                  <p>Ian has a number of hobbies and skills including his own YouTube channel, Shikibara, where he makes videos of gaming news, reviews, and skits. He was brought onto BOSS in late July of 2016 as their Social Media Manager.
+                    </p>
+                </div>`;
+    
+    current = 0;
+    var alterTeamMobile = function alterTeamMobile(alter){
+      current += alter;
+      if(current >= team.length){
+        current = 0;
+      }
+      else if(current < 0){
+        current = team.length - 1;
+      }
+      document.getElementById('mobile-team-member').innerHTML = team[current];
+        
+    }
+    alterTeamMobile(0);
+
+  
+    doTheThing();
+  
+    function doTheThing() {
+        alterTeamMobile(1);
+        if (current >= team.length) {current = 0} 
+        setTimeout(doTheThing, 8500); // Change image every 2 seconds
+    }
+
+    
     </script>
 </body>
 </html>
