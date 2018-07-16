@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Fresca');
 
 @media screen and (max-device-width: 736px) { /*Phone*/
-  div.row.header{
-    margin-top:20rem;
-  }
   #main {
     width:100%;
     margin-right:auto;
@@ -27,38 +24,33 @@
     display:none;
   }
   div.row.menu {
-    width:100%;
+    width:120px;
     height:120px;
-    background-color: rgba(56, 197, 243, .75);
-    position:fixed;
-    margin-top:-20em;
+    /*overflow: hidden;*/
   }
   .mobile-nav  {
     list-style-type: none; /*to remove bullets*/
-    padding:10px 0;
+    text-align: center;
+    margin-top:2rem;
+    padding-right:25%;
+    width:50%;
   }
-  li.plank{
+  .mobile-nav > li.plank{
     line-height:60px;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-bottom:4rem;
     font-family: 'Fresca', sans-serif;
     font-weight:800;
     font-size: 4rem;
     letter-spacing: 3px;
-    height:10rem;
-    width:10rem;
-    text-align:center;
-    float:left;
-    margin-right: 7%;
-    margin-left:7%;
   }
-  a.plank {
-    padding-top:2rem;
+  .mobile-nav a.plank {
     text-decoration: none;
     color:#F2E55B;
-  }
-  a.plank > img {
-    height:6rem;
-    width:6rem;
+    text-align:center;
+    background: url("../img-2/plank-2.png") no-repeat bottom center;
+    background-size:120%;
+    padding:1rem 15rem;
   }
   .phone {
     display:none;
@@ -88,6 +80,10 @@
   .characters {
     height:auto;
     width:100%;
+  }
+  img.menu{
+    width:120px;
+    margin:1% 0 0 -1%;
   }
   div.row.small{
     padding: 5rem 0 2rem;
