@@ -1,17 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Fresca');
 
-
 * {
-    margin: 0;
-    padding: 0;
-    outline: none;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
 }
 
-
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Fresca', sans-serif;
-  font-weight:800;
+  font-weight: 800;
   letter-spacing: 3px;
 }
 
+.contact-form {
+  display: none;
+}
