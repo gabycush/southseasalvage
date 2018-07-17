@@ -83,6 +83,7 @@
   }
   img.collectable {
     padding-left: 1.8em;
+    width: 15%;
     display: inline-block;
   }
 
