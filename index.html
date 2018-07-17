@@ -30,7 +30,7 @@
 
   <section class="grass">
     <div class="row column">
-      <img class="phone float-center" src="img-2/phone-characters.png" />
+      <img class="phone float-center" src="img-2/header.png" />
     </div>
     <div class="row menu">
       <nav class="small-12 columns menu-items">
@@ -150,44 +150,41 @@
     <div class="row main-content">
       <h2>Screenshots</h2>
       <div class="slider">
-      <div class="large-4 columns">
-        <p><img class="float-center treasure-chest" src="img-2/chest.png" alt="map of the game" title=" " /></p>
-        <h3>Get Treasure!</h3>
-        <p>Use your brilliant matching skills to earn stars in every level, which then rebuild magnificent
-            Constellations!</p>
+        <div class="large-4 columns slider-treasure">
+          <p><img class="float-center treasure-chest" src="img-2/chest.png" alt="map of the game" title=" " /></p>
+          <h3 class="slideshow-title">GET TREASURE!</h3>
+          <p class="slideshow-p">Use your brilliant matching skills to earn stars in every level, which then rebuild magnificent
+              Constellations!</p>
+        </div>
+        <div class="large-4 columns">
+          <section class="media" id="media">
+            <div id="slideshow" class="slideshow float-center">
+              <img id="slideshowimage" />
+            </div>
+            <img class="prev" src="img-2/slideshow-arrow-1.png" alt="previous image" title="previous image">
+            <p id="image-num"></p>
+            <img class="next" src="img-2/slideshow-arrow-2.png" alt="next image" title="next image">
+          </section>
+        </div>
+        <div class="large-4 columns">
+            <p><img class="float-center crew" src="img-2/Crew.png" alt="map of the game" title=" " /></p>
+        </div> 
       </div>
-      <div class="large-4 columns">
-        <section class="media" id="media">
-          <img class="prev" src="img-2/slideshow-arrow-1.png" alt="previous image" title="previous image">
-          <div id="slideshow" class="slideshow float-center">
-            <img id="slideshowimage" />
-          </div>
-          <img class="next" src="img-2/slideshow-arrow-2.png" alt="next image" title="next image">
-        </section>
-      </div>
-      <div class="large-4 columns">
-          <p><img class="float-center crew" src="img-2/Crew.png" alt="map of the game" title=" " /></p>
-      </div>
-        
-
-      </div>
-      <!-- <p href='#media' class='slideshowcontrols prev-link'><strong>&lt;</strong></p>
-      <p href='#media' class='slideshowcontrols next-link'><strong>&gt;</strong></p> -->
     </div>
   </section>
   <section id="playnow" class="playnow">
     <div class="play">
           <div class="medium-8 large-8 columns download">
               <h2>Play Now!</h2>
-              <!-- <p>
-                <img class="download-on" src="img-2/appstore.png" alt="map of the game" title=" " />
+              <p>
+                <!-- <img class="download-on" src="img-2/appstore.png" alt="map of the game" title=" " /> -->
                 <a target="blank" href="https://play.google.com/store/apps/details?id=com.BundleOfSticksStudios.SSS">
                   <img class="download-on" src="img-2/googleplay.png" />
                 </a>
-              </p> -->
+              </p>
               <p>
                 <a target="blank" href="https://play.google.com/store/apps/details?id=com.BundleOfSticksStudios.SSS">
-                  <img class="app-icon" src="img-2/App-icon.png" alt="map of the game" title=" " />
+                  <img class="app-icon" src="img-2/Hi-res-icon.png" alt="map of the game" title=" " />
                 </a>
               </p>
           </div>
@@ -477,6 +474,7 @@
         }
         document.getElementById('slideshowimage').setAttribute('src', images[presentimage]);
         document.getElementById('slideshowimage').setAttribute('class', 'float-center');
+        document.getElementById('image-num').innerHTML = `${presentimage} / ${images.length}`;
         // document.getElementById('mobile-slideshowimage').setAttribute('src', mobileImages[presentimage]);
         // document.getElementById('mobile-slideshowimage').setAttribute('class', 'float-center');
     }

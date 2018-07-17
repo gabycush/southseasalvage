@@ -159,23 +159,41 @@
     margin-right: auto;
     display: block;
   }
+  .slider-treasure {
+    margin-top: 15%;
+    padding-left: 5%;
+  }
+  .slideshow-title {
+    font-size: 340%;
+  }
+  .slideshow-p {
+    font-size: 1.1rem;
+    text-align: justify;
+    width: 100%;
+  }
   .next {
     position: relative;
-    top: -350px;
-    left: 370px;
+    bottom: 0px;
+    left: 250px;
+  }
+  #image-num {
+    position: absolute;
+    bottom: 17px;
+    left: 575px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #5ab5e5;
   }
   .prev {
     position: relative;
-    top: 293px;
-    left: -50px;
-  }
-  img.treasure-chest {
-    padding-top: 5%;
-    width: 200px;
+    bottom: 0px;
+    left: 17px;
   }
   img.crew {
-    height: 300px;
-    margin-top: 30%;
+    width: 35%;
+    position: absolute;
+    right: 0.5%;
+    bottom: 13%;
   }
 
   section.playnow {
@@ -197,10 +215,10 @@
   }
   img.download-on {
     width: 25%;
+    margin-top: 2%;
   }
   .app-icon {
-    width: 27%;
-    margin-top: 5%;
+    width: 25%;
   }
   .team-eating {
     margin-top: 15%;
@@ -314,7 +332,7 @@
   }
   .phone {
     height: auto;
-    width: 30%;
+    width: 50%;
   }
   .navbar {
     width: 100%;
