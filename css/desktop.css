@@ -35,8 +35,9 @@
     width: 100%;
     height: 100%;
     padding: 2rem 2rem 9rem 2rem;
-    background: url('../img-2/treasure.png') repeat-x, linear-gradient(#3bb3e4, #3b5398);
+    background: url('../img-2/sea-background.png') no-repeat, linear-gradient(#3bb3e4, #3b5398);
     background-position: bottom left, 50% 50%;
+    background-size: contain;
     overflow: hidden;
     color: #f9f7d4;
   }
