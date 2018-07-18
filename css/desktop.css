@@ -36,7 +36,7 @@
     height: 100%;
     padding: 2rem 2rem 9rem 2rem;
     background: url('../img-2/sea-background.png') no-repeat, linear-gradient(#3bb3e4, #3b5398);
-    background-position: bottom left, 50% 50%;
+    background-position: bottom left, 20% 50%;
     background-size: contain;
     overflow: hidden;
     color: #f9f7d4;
@@ -214,17 +214,20 @@
   }
   div.download {
     padding: 3% 0 0 7%;
+    margin-left: 15%;
     color: #fde703;
+    width: 25%;
   }
   img.download-on {
-    width: 25%;
+    width: 90%;
     margin-top: 2%;
   }
   .app-icon {
-    width: 25%;
+    width: 90%;
   }
   .team-eating {
     margin-top: 15%;
+    margin-left: -55%;
   }
   .contact-ping {
     width: 35%;
